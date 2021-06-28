@@ -20,7 +20,7 @@
           </ul>
           <%= render "_user_menu.html", assigns %>
         </nav>
-        <a href="http://localhost:4000/" class="phx-logo">
+        <a href="http://localhost:4000/" class="phx-logo"> <!-- TODO: needs a way to show the proper link -->
           <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
         </a>
       </section>
