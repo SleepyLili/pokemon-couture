@@ -1,0 +1,23 @@
+<h1>Show Clothes</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @clothes.name %>
+  </li>
+
+  <li>
+    <strong>Location:</strong>
+    <%= @clothes.location %>
+  </li>
+
+  <li>
+    <strong>Game:</strong>
+    <%= @clothes.game %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.clothes_path(@conn, :edit, @clothes) %></span>
+<span><%= link "Back", to: Routes.clothes_path(@conn, :index) %></span>

@@ -1,0 +1,30 @@
+<h1>Listing Clothes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Game</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for clothes <- @clothes do %>
+    <tr>
+      <td><%= clothes.name %></td>
+      <td><%= clothes.location %></td>
+      <td><%= clothes.game %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.clothes_path(@conn, :show, clothes) %></span>
+        <span><%= link "Edit", to: Routes.clothes_path(@conn, :edit, clothes) %></span>
+        <span><%= link "Delete", to: Routes.clothes_path(@conn, :delete, clothes), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Clothes", to: Routes.clothes_path(@conn, :new) %></span>
