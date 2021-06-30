@@ -3,9 +3,11 @@ defmodule PokemonCouture.Shops.Clothes do
   import Ecto.Changeset
 
   schema "clothes" do
+    field :name, :string
+    field :color, :string
     field :game, :string
     field :location, :string
-    field :name, :string
+
     many_to_many :users, PokemonCouture.Accounts.User, join_through: "ownerships", unique: :true
 
     timestamps()
@@ -14,7 +16,7 @@ defmodule PokemonCouture.Shops.Clothes do
   @doc false
   def changeset(clothes, attrs) do
     clothes
-    |> cast(attrs, [:name, :location, :game])
-    |> validate_required([:name, :location, :game])
+    |> cast(attrs, [:name, :location, :game, :color])
+    |> validate_required([:name, :location, :game, :color])
   end
 end

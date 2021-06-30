@@ -4,9 +4,9 @@ defmodule PokemonCouture.Repo.Migrations.CreateClothes do
   def change do
     create table(:clothes) do
       add :name, :string
+      add :color, :string
       add :location, :string
       add :game, :string
-
       timestamps()
     end
 

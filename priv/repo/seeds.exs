@@ -9,3 +9,8 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias PokemonCouture.Repo
+alias PokemonCouture.Shops.Clothes
+
+Repo.insert! %Clothes{game: "Tlapka", location: "Tlapkov", name: "Tlapka Hat", color: "Blue"}
