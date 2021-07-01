@@ -47,7 +47,9 @@ defmodule PokemonCouture.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
 
-      {:phx_gen_auth, "~> 0.7", only: [:dev], runtime: false}
+      {:phx_gen_auth, "~> 0.7", only: [:dev], runtime: false},
+      {:csv, "~> 2.4.1"}
+
     ]
   end
 
