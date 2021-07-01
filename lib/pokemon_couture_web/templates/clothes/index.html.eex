@@ -14,6 +14,7 @@
 <%= for clothes <- @clothes do %>
     <tr>
       <td><%= clothes.name %></td>
+      <td><%= clothes.color %></td>
       <td><%= clothes.location %></td>
       <td><%= clothes.game %></td>
 
