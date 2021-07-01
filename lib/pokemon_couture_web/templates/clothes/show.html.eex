@@ -7,6 +7,13 @@
     <%= @clothes.name %>
   </li>
 
+
+  <li>
+    <strong>Color:</strong>
+    <%= @clothes.color %>
+  </li>
+
+
   <li>
     <strong>Location:</strong>
     <%= @clothes.location %>
