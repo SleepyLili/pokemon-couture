@@ -16,7 +16,6 @@ defmodule Parser do
   def parse do
     File.stream!("sunmoon_clothes.csv")
     |> CSV.decode!(headers: :true)
-#    |> Enum.each(fn x -> IO.inspect(x) end)
     |> Enum.map(fn x -> %Clothes{game: x["game"], location: x["location"], name: x["name"], color: x["color"]} end)
     |> Enum.each(fn x -> Repo.insert!(x) end)
   end
