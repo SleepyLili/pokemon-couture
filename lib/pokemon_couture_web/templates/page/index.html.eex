@@ -1,20 +1,17 @@
 <section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace of mind from prototype to production</p>
+  <h1><%= gettext "Welcome to %{name}!", name: "Pokémon Couture" %></h1>
+  <p>Tracking tool for clothes in Pokémon Sun & Moon.</p>
 </section>
 
 <section class="row">
   <article class="column">
-    <h2>Resources</h2>
+    <h2>Links</h2>
     <ul>
       <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
+        <a href="http://localhost:4000/clothes">Clothes page</a>
       </li>
       <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.5/CHANGELOG.md">v1.5 Changelog</a>
+        <a href="https://github.com/SleepyLili/pokemon-couture">Source</a>
       </li>
     </ul>
   </article>
