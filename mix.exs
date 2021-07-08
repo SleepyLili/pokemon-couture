@@ -48,7 +48,10 @@ defmodule PokemonCouture.MixProject do
       {:plug_cowboy, "~> 2.0"},
 
       {:phx_gen_auth, "~> 0.7", only: [:dev], runtime: false},
-      {:csv, "~> 2.4.1"}
+      {:csv, "~> 2.4.1"},
+
+      {:phoenix_live_view, "~> 0.15.7"},
+      {:floki, ">= 0.30.0", only: :test}
 
     ]
   end

@@ -39,6 +39,8 @@ defmodule PokemonCoutureWeb do
 
       # Include shared imports and aliases for views
       unquote(view_helpers())
+
+      import Phoenix.LiveView.Helpers
     end
   end
 
@@ -48,6 +50,7 @@ defmodule PokemonCoutureWeb do
 
       import Plug.Conn
       import Phoenix.Controller
+      import Phoenix.LiveView.Router
     end
   end
 

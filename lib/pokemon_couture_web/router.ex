@@ -6,10 +6,12 @@ defmodule PokemonCoutureWeb.Router do
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
-    plug :fetch_flash
+    plug :fetch_live_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
     plug :fetch_current_user
+
+    plug :put_root_layout, {PokemonCoutureWeb.LayoutView, :root}
   end
 
   pipeline :api do
