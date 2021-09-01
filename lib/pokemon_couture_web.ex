@@ -39,8 +39,6 @@ defmodule PokemonCoutureWeb do
 
       # Include shared imports and aliases for views
       unquote(view_helpers())
-
-      import Phoenix.LiveView.Helpers
     end
   end
 
@@ -66,6 +64,9 @@ defmodule PokemonCoutureWeb do
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
+      # Import LiveView helpers (live_render, live_component, live_patch, etc)
+      import Phoenix.LiveView.Helpers
+
       # Import basic rendering functionality (render, render_layout, etc)
       import Phoenix.View
 
@@ -74,6 +75,24 @@ defmodule PokemonCoutureWeb do
       alias PokemonCoutureWeb.Router.Helpers, as: Routes
     end
   end
+
+  def live_view do
+    quote do
+      use Phoenix.LiveView,
+        layout: {PokemonCoutureWeb.LayoutView, "live.html"}
+
+      unquote(view_helpers())
+    end
+  end
+
+  def live_component do
+    quote do
+      use Phoenix.LiveComponent
+
+      unquote(view_helpers())
+    end
+  end
+
 
   @doc """
   When used, dispatch to the appropriate controller/view/etc.
