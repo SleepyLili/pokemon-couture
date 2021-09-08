@@ -1,2 +1,3 @@
 <h1>The light is <%= @light_bulb_status %>.</h1>
- <button phx-click="on">On</button>
+<button phx-click="on" <%= @on_button_status %>>On</button>
+<button phx-click="off" <%= @off_button_status %>>Off</button>
