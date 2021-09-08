@@ -23,6 +23,7 @@ defmodule PokemonCoutureWeb.Router do
 
     get "/", PageController, :index
     resources "/clothes", ClothesController
+    live "/tracker", ClothesTrackerLive
   end
 
   # Other scopes may use custom stacks.
