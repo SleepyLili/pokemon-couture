@@ -1,3 +1,19 @@
-<h1>The light is <%= @light_bulb_status %>.</h1>
-<button phx-click="on" <%= @on_button_status %>>On</button>
-<button phx-click="off" <%= @off_button_status %>>Off</button>
+<h1>Listing Clothes</h1>
+<%= for {shop, list_of_clothes} <- @clothes_map do %>
+  <h2> <%= shop %></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Color</th>
+        <th>Game</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+  <%= for clothes <- list_of_clothes do %>
+      <%= live_component PokemonCoutureWeb.Components.ClothesComponent, id: clothes.id, clothes: clothes %>
+  <% end %>
+    </tbody>
+  </table>
+<% end %>
