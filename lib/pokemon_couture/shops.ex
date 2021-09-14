@@ -21,6 +21,9 @@ defmodule PokemonCouture.Shops do
     Repo.all(Clothes)
   end
 
+  def list_clothes_with_owners do
+    Repo.all(from c in Clothes, preload: [:users])
+  end
   @doc """
   Gets a single clothes.
 
@@ -100,5 +103,19 @@ defmodule PokemonCouture.Shops do
   """
   def change_clothes(%Clothes{} = clothes, attrs \\ %{}) do
     Clothes.changeset(clothes, attrs)
+  end
+
+  def add_owner(clothes, user) do
+    clothes
+    |> Ecto.Changeset.change()
+    |> Ecto.Changeset.put_assoc(:users, [user | clothes.users])
+    |> Repo.update!()
+  end
+
+  def remove_owner(clothes, user) do
+    clothes
+    |> Ecto.Changeset.change()
+    |> Ecto.Changeset.put_assoc(:users, List.delete(clothes.users, user))
+    |> Repo.update!()
   end
 end

@@ -8,7 +8,7 @@ defmodule PokemonCouture.Shops.Clothes do
     field :game, :string
     field :location, :string
 
-    many_to_many :users, PokemonCouture.Accounts.User, join_through: "ownerships", unique: :true
+    many_to_many :users, PokemonCouture.Accounts.User, join_through: "ownerships", unique: :true, on_replace: :delete
 
     timestamps()
   end

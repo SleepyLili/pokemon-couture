@@ -12,7 +12,7 @@
     </thead>
     <tbody>
   <%= for clothes <- list_of_clothes do %>
-      <%= live_component PokemonCoutureWeb.Components.ClothesComponent, id: clothes.id, clothes: clothes %>
+      <%= live_component PokemonCoutureWeb.Components.ClothesComponent, id: clothes.id, clothes: clothes, user: @user %>
   <% end %>
     </tbody>
   </table>

@@ -8,7 +8,7 @@ defmodule PokemonCouture.Accounts.User do
     field :password, :string, virtual: true
     field :hashed_password, :string
     field :confirmed_at, :naive_datetime
-    many_to_many :clothes, PokemonCouture.Shops.Clothes, join_through: "ownerships", unique: :true
+    many_to_many :clothes, PokemonCouture.Shops.Clothes, join_through: "ownerships", unique: :true, on_replace: :delete
 
     timestamps()
   end
