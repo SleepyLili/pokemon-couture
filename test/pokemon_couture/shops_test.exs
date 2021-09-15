@@ -6,9 +6,9 @@ defmodule PokemonCouture.ShopsTest do
   describe "clothes" do
     alias PokemonCouture.Shops.Clothes
 
-    @valid_attrs %{game: "some game", location: "some location", name: "some name"}
-    @update_attrs %{game: "some updated game", location: "some updated location", name: "some updated name"}
-    @invalid_attrs %{game: nil, location: nil, name: nil}
+    @valid_attrs %{game: "some game", location: "some location", name: "some name", color: "some color"}
+    @update_attrs %{game: "some updated game", location: "some updated location", name: "some updated name", color: "some updated color"}
+    @invalid_attrs %{game: nil, location: nil, name: nil, color: nil}
 
     def clothes_fixture(attrs \\ %{}) do
       {:ok, clothes} =

@@ -2,8 +2,6 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
   use PokemonCoutureWeb, :live_view
 
   alias PokemonCouture.Shops
-  alias PokemonCouture.Shops.Clothes
-  alias PokemonCouture.Live.Components.ClothesComponent
   alias PokemonCouture.Accounts
 
   def create_shop_map(clothes, map) do
