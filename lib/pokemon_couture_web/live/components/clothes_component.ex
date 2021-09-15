@@ -2,9 +2,6 @@ defmodule PokemonCoutureWeb.Components.ClothesComponent do
   use Phoenix.LiveComponent
 
   alias PokemonCouture.Shops
-  def mount(socket) do
-    {:ok, socket}
-  end
 
   def render(assigns) do
     ~L"""

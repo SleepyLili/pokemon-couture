@@ -21,6 +21,9 @@ defmodule PokemonCouture.Shops do
     Repo.all(Clothes)
   end
 
+  @doc """
+  Returns the list of clothes with owners preloaded.
+  """
   def list_clothes_with_owners do
     Repo.all(from c in Clothes, preload: [:users])
   end
@@ -105,6 +108,9 @@ defmodule PokemonCouture.Shops do
     Clothes.changeset(clothes, attrs)
   end
 
+  @doc """
+  Adds a new owner to a piece of clothing.
+  """
   def add_owner(clothes, user) do
     clothes
     |> Ecto.Changeset.change()
@@ -112,6 +118,9 @@ defmodule PokemonCouture.Shops do
     |> Repo.update!()
   end
 
+  @doc """
+  Removes an owner from a piece of clothing.
+  """
   def remove_owner(clothes, user) do
     clothes
     |> Ecto.Changeset.change()

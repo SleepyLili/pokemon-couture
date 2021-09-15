@@ -22,15 +22,4 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
       |> assign(:user, user)
     {:ok, socket}
   end
-
-  def handle_event("on", _value, socket) do
-    socket =
-      socket
-      |> assign(:light_bulb_status, "on")
-      |> assign(:on_button_status, "disabled")
-      |> assign(:off_button_status, "enabled")
-
-    {:noreply, socket}
-  end
-
 end
