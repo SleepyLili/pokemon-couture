@@ -13,8 +13,8 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
     end
   end
 
-  def mount(_params, session, socket) do
-    user = Accounts.get_user_by_session_token(session["user_token"])
+  def mount(_params, %{"user_token" => user_token} = _session, socket) do
+    user = Accounts.get_user_by_session_token(user_token)
     clothes_map = Enum.reduce(Shops.list_clothes_with_owners(), %{}, &create_shop_map/2)
     socket =
       socket

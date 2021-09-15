@@ -23,7 +23,7 @@ defmodule PokemonCoutureWeb.Router do
 
     get "/", PageController, :index
     resources "/clothes", ClothesController
-    live "/tracker", ClothesTrackerLive
+
   end
 
   # Other scopes may use custom stacks.
@@ -64,6 +64,8 @@ defmodule PokemonCoutureWeb.Router do
 
   scope "/", PokemonCoutureWeb do
     pipe_through [:browser, :require_authenticated_user]
+
+    live "/tracker", ClothesTrackerLive
 
     get "/users/settings", UserSettingsController, :edit
     put "/users/settings", UserSettingsController, :update
