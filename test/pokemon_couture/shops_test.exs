@@ -18,11 +18,10 @@ defmodule PokemonCouture.ShopsTest do
 
       clothes
     end
-    # for some reason this default test does not work anymore. probably because of db seeding.
-    # test "list_clothes/0 returns all clothes" do
-    #   clothes = clothes_fixture()
-    #   assert Shops.list_clothes() == [clothes]
-    # end
+
+    test "list_clothes/0 returns non-empty list" do
+      assert length(Shops.list_clothes()) > 0
+    end
 
     test "get_clothes!/1 returns the clothes with given id" do
       clothes = clothes_fixture()
