@@ -2,9 +2,8 @@ defmodule PokemonCoutureWeb.ClothesController do
   use PokemonCoutureWeb, :controller
 
   alias PokemonCouture.Shops
-  alias PokemonCouture.Shops.Clothes
 
-  def create_shop_map(clothes, map) do
+  def create_shop_map(clothes, map) do # helper function for index
     case map[clothes.location] do
       nil ->
         Map.put(map, clothes.location, [clothes])
@@ -22,22 +21,22 @@ defmodule PokemonCoutureWeb.ClothesController do
     render(conn, "index.html", clothes: clothes, clothes_map: clothes_map)
   end
 
-  def new(conn, _params) do
-    changeset = Shops.change_clothes(%Clothes{})
-    render(conn, "new.html", changeset: changeset)
-  end
+  # def new(conn, _params) do
+  #   changeset = Shops.change_clothes(%Clothes{})
+  #   render(conn, "new.html", changeset: changeset)
+  # end
 
-  def create(conn, %{"clothes" => clothes_params}) do
-    case Shops.create_clothes(clothes_params) do
-      {:ok, clothes} ->
-        conn
-        |> put_flash(:info, "Clothes created successfully.")
-        |> redirect(to: Routes.clothes_path(conn, :show, clothes))
+  # def create(conn, %{"clothes" => clothes_params}) do
+  #   case Shops.create_clothes(clothes_params) do
+  #     {:ok, clothes} ->
+  #       conn
+  #       |> put_flash(:info, "Clothes created successfully.")
+  #       |> redirect(to: Routes.clothes_path(conn, :show, clothes))
 
-      {:error, %Ecto.Changeset{} = changeset} ->
-        render(conn, "new.html", changeset: changeset)
-    end
-  end
+  #     {:error, %Ecto.Changeset{} = changeset} ->
+  #       render(conn, "new.html", changeset: changeset)
+  #   end
+  # end
 
   def show(conn, %{"id" => id}) do
     clothes = Shops.get_clothes!(id)

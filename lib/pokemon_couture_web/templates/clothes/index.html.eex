@@ -27,5 +27,3 @@
     </tbody>
   </table>
 <% end %>
-
-<span><%= link "New Clothes", to: Routes.clothes_path(@conn, :new) %></span>

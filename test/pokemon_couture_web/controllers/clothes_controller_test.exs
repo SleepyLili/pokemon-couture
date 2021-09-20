@@ -19,29 +19,29 @@ defmodule PokemonCoutureWeb.ClothesControllerTest do
     end
   end
 
-  describe "new clothes" do
-    test "renders form", %{conn: conn} do
-      conn = get(conn, Routes.clothes_path(conn, :new))
-      assert html_response(conn, 200) =~ "New Clothes"
-    end
-  end
+  # describe "new clothes" do
+  #   test "renders form", %{conn: conn} do
+  #     conn = get(conn, Routes.clothes_path(conn, :new))
+  #     assert html_response(conn, 200) =~ "New Clothes"
+  #   end
+  # end
 
-  describe "create clothes" do
-    test "redirects to show when data is valid", %{conn: conn} do
-      conn = post(conn, Routes.clothes_path(conn, :create), clothes: @create_attrs)
+  # describe "create clothes" do
+  #   test "redirects to show when data is valid", %{conn: conn} do
+  #     conn = post(conn, Routes.clothes_path(conn, :create), clothes: @create_attrs)
 
-      assert %{id: id} = redirected_params(conn)
-      assert redirected_to(conn) == Routes.clothes_path(conn, :show, id)
+  #     assert %{id: id} = redirected_params(conn)
+  #     assert redirected_to(conn) == Routes.clothes_path(conn, :show, id)
 
-      conn = get(conn, Routes.clothes_path(conn, :show, id))
-      assert html_response(conn, 200) =~ "Show Clothes"
-    end
+  #     conn = get(conn, Routes.clothes_path(conn, :show, id))
+  #     assert html_response(conn, 200) =~ "Show Clothes"
+  #   end
 
-    test "renders errors when data is invalid", %{conn: conn} do
-      conn = post(conn, Routes.clothes_path(conn, :create), clothes: @invalid_attrs)
-      assert html_response(conn, 200) =~ "New Clothes"
-    end
-  end
+  #   test "renders errors when data is invalid", %{conn: conn} do
+  #     conn = post(conn, Routes.clothes_path(conn, :create), clothes: @invalid_attrs)
+  #     assert html_response(conn, 200) =~ "New Clothes"
+  #   end
+  # end
 
   describe "edit clothes" do
     setup [:create_clothes]
