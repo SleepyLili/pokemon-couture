@@ -3,6 +3,7 @@ defmodule PokemonCouture.ShopsTest do
 
   alias PokemonCouture.Shops
 
+  import PokemonCouture.AccountsFixtures
   describe "clothes" do
     alias PokemonCouture.Shops.Clothes
 
@@ -21,6 +22,11 @@ defmodule PokemonCouture.ShopsTest do
 
     test "list_clothes/0 returns non-empty list" do
       assert length(Shops.list_clothes()) > 0
+    end
+
+    test "valid piece of clothing in list_clothes/0" do
+      clothes = Shops.get_clothes!(1)
+      assert clothes in Shops.list_clothes()
     end
 
     test "get_clothes!/1 returns the clothes with given id" do
@@ -62,6 +68,21 @@ defmodule PokemonCouture.ShopsTest do
     test "change_clothes/1 returns a clothes changeset" do
       clothes = clothes_fixture()
       assert %Ecto.Changeset{} = Shops.change_clothes(clothes)
+    end
+
+    test "check if list clothes with owners has owners" do
+      clothes_with_owners = Shops.list_clothes_with_owners()
+      clothes_piece = hd(clothes_with_owners)
+      assert clothes_piece.users
+    end
+
+    test "clothes owner adding and removing test" do
+      clothes_piece = hd(Shops.list_clothes_with_owners())
+      user = user_fixture()
+      clothes_piece = Shops.add_owner(clothes_piece, user)
+      assert user in clothes_piece.users
+      clothes_piece = Shops.remove_owner(clothes_piece, user)
+      assert user not in clothes_piece.users
     end
   end
 end

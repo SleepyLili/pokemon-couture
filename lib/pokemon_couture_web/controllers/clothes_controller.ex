@@ -17,7 +17,6 @@ defmodule PokemonCoutureWeb.ClothesController do
     clothes_map =
       clothes
       |> Enum.reduce(%{}, &create_shop_map/2)
-    # IO.inspect(clothes_map)
     render(conn, "index.html", clothes: clothes, clothes_map: clothes_map)
   end
 
