@@ -1,7 +1,7 @@
 defmodule PokemonCoutureWeb.ClothesTrackerLiveTest do
-  # import Plug.Conn
-  # use PokemonCoutureWeb.ConnCase
-  # import Phoenix.LiveViewTest
+  import Plug.Conn
+  use PokemonCoutureWeb.ConnCase
+  import Phoenix.LiveViewTest
   import PokemonCouture.AccountsFixtures
   @endpoint PokemonCoutureWeb.Endpoint
 
@@ -11,7 +11,7 @@ defmodule PokemonCoutureWeb.ClothesTrackerLiveTest do
 
   test "logged in user sees page", %{conn: conn} do
     conn = conn |> log_in_user(user_fixture())
-    {:ok, view, html} = live(conn, "/tracker")
+    {:ok, _view, html} = live(conn, "/tracker")
     assert html =~ "Listing Clothes"
   end
 end
