@@ -5,6 +5,7 @@ defmodule PokemonCouture.Repo.Migrations.CreateClothes do
     create table(:clothes) do
       add :name, :string
       add :color, :string
+      add :type, :string
       add :location, :string
       add :game, :string
       timestamps()
