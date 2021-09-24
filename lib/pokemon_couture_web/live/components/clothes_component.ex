@@ -8,7 +8,6 @@ defmodule PokemonCoutureWeb.Components.ClothesComponent do
     <tr>
         <td><%= @clothes.name %></td>
         <td><%= @clothes.color %></td>
-        <td><%= @clothes.type %></td>
         <td><%= @clothes.game %></td>
 
         <td>

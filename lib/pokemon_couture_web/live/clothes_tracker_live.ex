@@ -7,9 +7,15 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
   def create_shop_map(clothes, map) do
     case map[clothes.location] do
       nil ->
-        Map.put(map, clothes.location, [clothes])
-      list_of_clothes when is_list(list_of_clothes) ->
-        Map.put(map, clothes.location, list_of_clothes ++ [clothes])
+        Map.put(map, clothes.location, %{clothes.type => [clothes]})
+      map_of_clothes when is_map(map_of_clothes) ->
+        map_of_clothes = case map_of_clothes[clothes.type] do
+          nil ->
+            Map.put(map_of_clothes, clothes.type, [clothes])
+          list_of_clothes when is_list(list_of_clothes) ->
+            Map.put(map_of_clothes, clothes.type, [clothes | list_of_clothes])
+        end
+        Map.put(map, clothes.location, map_of_clothes)
     end
   end
 
