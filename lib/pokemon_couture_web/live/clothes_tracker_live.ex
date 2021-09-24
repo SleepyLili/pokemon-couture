@@ -3,6 +3,7 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
 
   alias PokemonCouture.Shops
   alias PokemonCouture.Accounts
+  alias PokemonCouture.Shops.Clothes
 
   def create_shop_map(clothes, map) do
     case map[clothes.location] do
@@ -19,9 +20,17 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
     end
   end
 
+  def inner_map_sorter({type, list}, acc) do
+    sorted_list = Enum.sort_by(list, fn %Clothes{name: name} -> name end)
+    Map.put(acc, type, sorted_list)
+  end
+
   def mount(_params, %{"user_token" => user_token} = _session, socket) do
     user = Accounts.get_user_by_session_token(user_token)
     clothes_map = Enum.reduce(Shops.list_clothes_with_owners(), %{}, &create_shop_map/2)
+    clothes_map = for {shop, map} <- clothes_map
+                  do {shop, Enum.reduce(map, %{}, &inner_map_sorter/2)}
+                  end
     socket =
       socket
       |> assign(:clothes_map, clothes_map)
