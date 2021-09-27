@@ -263,21 +263,12 @@ Striped Ruffled Blouse,Pink,shirt,Konikoni City,Sun
 Striped Ruffled Blouse,Purple,shirt,Konikoni City,Moon
 Striped Ruffled Blouse,Beige,shirt,Konikoni City,Sun
 Striped Ruffled Blouse,Gray,shirt,Konikoni City,Moon
-Athletic Tank,White,shirt,Konikoni City,Both
-Athletic Tank,Black,shirt,Konikoni City,Both
-Athletic Tank,Red,shirt,Konikoni City,Sun
-Athletic Tank,Green,shirt,Konikoni City,Moon
-Athletic Tank,Yellow,shirt,Konikoni City,Sun
-Athletic Tank,Blue,shirt,Konikoni City,Moon
-Athletic Tank,Orange,shirt,Konikoni City,Sun
-Athletic Tank,Navy,shirt,Konikoni City,Moon
+Athletic Tank,Beige,shirt,Konikoni City,Both
 Athletic Tank,Pink,shirt,Konikoni City,Sun
-Athletic Tank,Purple,shirt,Konikoni City,Moon
-Athletic Tank,Beige,shirt,Konikoni City,Sun
-Athletic Tank,Gray,shirt,Konikoni City,Moon
+Athletic Tank,Green,shirt,Konikoni City,Moon
 Sporty Tank,Legendary,shirt,Konikoni City,Both
 Sporty Tank,Seed,shirt,Konikoni City,Both
-Sporty Tank,Poison Bee,shirt,Konikoni City,Both
+Sporty Tank,Poison Bee,shirt,Konikoni City,Sun
 Capri Pants,White,pants,Konikoni City,Both
 Capri Pants,Black,pants,Konikoni City,Both
 Capri Pants,Red,pants,Konikoni City,Sun
@@ -314,21 +305,12 @@ Bordered Flared Skirt,Pink,pants,Konikoni City,Sun
 Bordered Flared Skirt,Purple,pants,Konikoni City,Moon
 Bordered Flared Skirt,Beige,pants,Konikoni City,Sun
 Bordered Flared Skirt,Gray,pants,Konikoni City,Moon
-Athletic Shorts,White,pants,Konikoni City,Both
-Athletic Shorts,Black,pants,Konikoni City,Both
-Athletic Shorts,Red,pants,Konikoni City,Sun
-Athletic Shorts,Green,pants,Konikoni City,Moon
-Athletic Shorts,Yellow,pants,Konikoni City,Sun
-Athletic Shorts,Blue,pants,Konikoni City,Moon
-Athletic Shorts,Orange,pants,Konikoni City,Sun
-Athletic Shorts,Navy,pants,Konikoni City,Moon
+Athletic Shorts,Beige,pants,Konikoni City,Both
 Athletic Shorts,Pink,pants,Konikoni City,Sun
-Athletic Shorts,Purple,pants,Konikoni City,Moon
-Athletic Shorts,Beige,pants,Konikoni City,Sun
-Athletic Shorts,Gray,pants,Konikoni City,Moon
-Sport Shorts,Legendary,pants,Konikoni City,Both
-Sport Shorts,Seed,pants,Konikoni City,Both
-Sport Shorts,Poison Bee,pants,Konikoni City,Both
+Athletic Shorts,Green,pants,Konikoni City,Moon
+Sporty Shorts,Legendary,pants,Konikoni City,Both
+Sporty Shorts,Seed,pants,Konikoni City,Both
+Sporty Shorts,Poison Bee,pants,Konikoni City,Sun
 Knee Socks,White,socks,Konikoni City,Both
 Knee Socks,Black,socks,Konikoni City,Both
 Knee Socks,Red,socks,Konikoni City,Sun
@@ -377,8 +359,8 @@ Espadrilles,Pink,shoes,Konikoni City,Sun
 Espadrilles,Purple,shoes,Konikoni City,Moon
 Espadrilles,Beige,shoes,Konikoni City,Sun
 Espadrilles,Gray,shoes,Konikoni City,Moon
-Low-Tap Sneakers,White,shoes,Konikoni City,Sun
-Low-Tap Sneakers,Black,shoes,Konikoni City,Moon
+Low-Top Sneakers,White,shoes,Konikoni City,Sun
+Low-Top Sneakers,Black,shoes,Konikoni City,Moon
 Sport Sneakers,White,shoes,Konikoni City,Both
 Sport Sneakers,Black,shoes,Konikoni City,Both
 Sport Sneakers,Red,shoes,Konikoni City,Sun
@@ -419,4 +401,4 @@ Athletic Cap,Pink,hat,Konikoni City,Sun
 Athletic Cap,Green,hat,Konikoni City,Moon
 Sports Cap,Legendary,hat,Konikoni City,Both
 Sports Cap,Seed,hat,Konikoni City,Both
-Sports Cap,Poison Bee,hat,Konikoni City,Both
+Sports Cap,Poison Bee,hat,Konikoni City,Sun
