@@ -6,7 +6,7 @@ Designer Top,Green,shirt,Gracidea,Moon
 Designer Top,Yellow,shirt,Gracidea,Sun
 Designer Top,Blue,shirt,Gracidea,Moon
 Designer Top,Orange,shirt,Gracidea,Sun
-Designer Top,Navy,shirt,Gracidea,Moon
+Designer Top,Navy Blue,shirt,Gracidea,Moon
 Designer Top,Pink,shirt,Gracidea,Sun
 Designer Top,Purple,shirt,Gracidea,Moon
 Designer Top,Beige,shirt,Gracidea,Sun
@@ -18,7 +18,7 @@ Strappy Sandals,Green,shoes,Gracidea,Moon
 Strappy Sandals,Yellow,shoes,Gracidea,Sun
 Strappy Sandals,Blue,shoes,Gracidea,Moon
 Strappy Sandals,Orange,shoes,Gracidea,Sun
-Strappy Sandals,Navy,shoes,Gracidea,Moon
+Strappy Sandals,Navy Blue,shoes,Gracidea,Moon
 Strappy Sandals,Pink,shoes,Gracidea,Sun
 Strappy Sandals,Purple,shoes,Gracidea,Moon
 Strappy Sandals,Beige,shoes,Gracidea,Sun
@@ -30,7 +30,7 @@ Satchel Bag,Green,bag,Gracidea,Moon
 Satchel Bag,Yellow,bag,Gracidea,Sun
 Satchel Bag,Blue,bag,Gracidea,Moon
 Satchel Bag,Orange,bag,Gracidea,Sun
-Satchel Bag,Navy,bag,Gracidea,Moon
+Satchel Bag,Navy Blue,bag,Gracidea,Moon
 Satchel Bag,Pink,bag,Gracidea,Sun
 Satchel Bag,Purple,bag,Gracidea,Moon
 Satchel Bag,Beige,bag,Gracidea,Sun
@@ -42,16 +42,16 @@ Beach Hat,Green,hat,Gracidea,Moon
 Beach Hat,Yellow,hat,Gracidea,Sun
 Beach Hat,Blue,hat,Gracidea,Moon
 Beach Hat,Orange,hat,Gracidea,Sun
-Beach Hat,Navy,hat,Gracidea,Moon
+Beach Hat,Navy Blue,hat,Gracidea,Moon
 Beach Hat,Pink,hat,Gracidea,Sun
 Beach Hat,Purple,hat,Gracidea,Moon
 Beach Hat,Beige,hat,Gracidea,Sun
 Beach Hat,Gray,hat,Gracidea,Moon
-Oversized Sunglasses,Gray,glasses,Gracidea,Moon
-Oversized Sunglasses,Blue,glasses,Gracidea,Moon
-Oversized Sunglasses,Purple,glasses,Gracidea,Moon
-Gem Barrette,White,accessory,Gracidea,Moon
-Gem Barrette,Blue,accessory,Gracidea,Moon
+Oversized Sunglasses,Gray,eyewear,Gracidea,Moon
+Oversized Sunglasses,Blue,eyewear,Gracidea,Moon
+Oversized Sunglasses,Purple,eyewear,Gracidea,Moon
+Gem Barrette,White,hair accessory,Gracidea,Moon
+Gem Barrette,Blue,hair accessory,Gracidea,Moon
 Halter Top,White,shirt,Malie City,Both
 Halter Top,Black,shirt,Malie City,Both
 Halter Top,Red,shirt,Malie City,Sun
@@ -59,7 +59,7 @@ Halter Top,Green,shirt,Malie City,Moon
 Halter Top,Yellow,shirt,Malie City,Sun
 Halter Top,Blue,shirt,Malie City,Moon
 Halter Top,Orange,shirt,Malie City,Sun
-Halter Top,Navy,shirt,Malie City,Moon
+Halter Top,Navy Blue,shirt,Malie City,Moon
 Halter Top,Pink,shirt,Malie City,Sun
 Halter Top,Purple,shirt,Malie City,Moon
 Halter Top,Beige,shirt,Malie City,Sun
@@ -71,7 +71,7 @@ Striped Halter Top,Green,shirt,Malie City,Moon
 Striped Halter Top,Yellow,shirt,Malie City,Sun
 Striped Halter Top,Blue,shirt,Malie City,Moon
 Striped Halter Top,Orange,shirt,Malie City,Sun
-Striped Halter Top,Navy,shirt,Malie City,Moon
+Striped Halter Top,Navy Blue,shirt,Malie City,Moon
 Striped Halter Top,Pink,shirt,Malie City,Sun
 Striped Halter Top,Purple,shirt,Malie City,Moon
 Striped Halter Top,Beige,shirt,Malie City,Sun
@@ -83,7 +83,7 @@ Flower-Print Top,Green,shirt,Malie City,Moon
 Flower-Print Top,Yellow,shirt,Malie City,Sun
 Flower-Print Top,Blue,shirt,Malie City,Moon
 Flower-Print Top,Orange,shirt,Malie City,Sun
-Flower-Print Top,Navy,shirt,Malie City,Moon
+Flower-Print Top,Navy Blue,shirt,Malie City,Moon
 Flower-Print Top,Pink,shirt,Malie City,Sun
 Flower-Print Top,Purple,shirt,Malie City,Moon
 Flower-Print Top,Beige,shirt,Malie City,Sun
@@ -92,32 +92,32 @@ Sporty Tank,Fruit,shirt,Malie City,Both
 Sporty Tank,Sea Cucumber,shirt,Malie City,Sun
 Sporty Tank,Jellyfish,shirt,Malie City,Moon
 Sporty Tank,Woolly Crab,shirt,Malie City,Moon
-Frayed Denim Shorts,Light Blue,pants,Malie City,Both
-Frayed Denim Shorts,Blue,pants,Malie City,Sun
-Frayed Denim Shorts,Navy,pants,Malie City,Sun
-Frayed Denim Shorts,Black,pants,Malie City,Moon
-Frayed Denim Shorts,Faded Black,pants,Malie City,Moon
-Distressed Jeans,Light Blue,pants,Malie City,Both
-Distressed Jeans,Blue,pants,Malie City,Sun
-Distressed Jeans,Navy,pants,Malie City,Sun
-Distressed Jeans,Black,pants,Malie City,Moon
-Distressed Jeans,Faded Black,pants,Malie City,Moon
-Plaid Miniskirt,White,pants,Malie City,Both
-Plaid Miniskirt,Black,pants,Malie City,Both
-Plaid Miniskirt,Red,pants,Malie City,Sun
-Plaid Miniskirt,Green,pants,Malie City,Moon
-Plaid Miniskirt,Yellow,pants,Malie City,Sun
-Plaid Miniskirt,Blue,pants,Malie City,Moon
-Plaid Miniskirt,Orange,pants,Malie City,Sun
-Plaid Miniskirt,Navy,pants,Malie City,Moon
-Plaid Miniskirt,Pink,pants,Malie City,Sun
-Plaid Miniskirt,Purple,pants,Malie City,Moon
-Plaid Miniskirt,Beige,pants,Malie City,Sun
-Plaid Miniskirt,Gray,pants,Malie City,Moon
-Sporty Shorts,Fruit,pants,Malie City,Both
-Sporty Shorts,Sea Cucumber,pants,Malie City,Sun
-Sporty Shorts,Jellyfish,pants,Malie City,Moon
-Sporty Shorts,Woolly Crab,pants,Malie City,Moon
+Frayed Denim Shorts,Light Blue,bottoms,Malie City,Both
+Frayed Denim Shorts,Blue,bottoms,Malie City,Sun
+Frayed Denim Shorts,Navy Blue,bottoms,Malie City,Sun
+Frayed Denim Shorts,Black,bottoms,Malie City,Moon
+Frayed Denim Shorts,Faded Black,bottoms,Malie City,Moon
+Distressed Jeans,Light Blue,bottoms,Malie City,Both
+Distressed Jeans,Blue,bottoms,Malie City,Sun
+Distressed Jeans,Navy Blue,bottoms,Malie City,Sun
+Distressed Jeans,Black,bottoms,Malie City,Moon
+Distressed Jeans,Faded Black,bottoms,Malie City,Moon
+Plaid Miniskirt,White,bottoms,Malie City,Both
+Plaid Miniskirt,Black,bottoms,Malie City,Both
+Plaid Miniskirt,Red,bottoms,Malie City,Sun
+Plaid Miniskirt,Green,bottoms,Malie City,Moon
+Plaid Miniskirt,Yellow,bottoms,Malie City,Sun
+Plaid Miniskirt,Blue,bottoms,Malie City,Moon
+Plaid Miniskirt,Orange,bottoms,Malie City,Sun
+Plaid Miniskirt,Navy Blue,bottoms,Malie City,Moon
+Plaid Miniskirt,Pink,bottoms,Malie City,Sun
+Plaid Miniskirt,Purple,bottoms,Malie City,Moon
+Plaid Miniskirt,Beige,bottoms,Malie City,Sun
+Plaid Miniskirt,Gray,bottoms,Malie City,Moon
+Sporty Shorts,Fruit,bottoms,Malie City,Both
+Sporty Shorts,Sea Cucumber,bottoms,Malie City,Sun
+Sporty Shorts,Jellyfish,bottoms,Malie City,Moon
+Sporty Shorts,Woolly Crab,bottoms,Malie City,Moon
 Camo Over-the-Knee Socks,Pink,socks,Malie City,Sun
 Camo Over-the-Knee Socks,Green,socks,Malie City,Both
 Camo Over-the-Knee Socks,Blue,socks,Malie City,Moon
@@ -126,7 +126,7 @@ Sporty Sneakers,Multi Green,shoes,Malie City,Moon
 Sporty Sneakers,Multi Yellow,shoes,Malie City,Sun
 Sporty Sneakers,Multi Blue,shoes,Malie City,Moon
 Sporty Sneakers,Multi Orange,shoes,Malie City,Sun
-Sporty Sneakers,Multi Navy,shoes,Malie City,Moon
+Sporty Sneakers,Multi Navy Blue,shoes,Malie City,Moon
 Sporty Sneakers,Multi Pink,shoes,Malie City,Sun
 Sporty Sneakers,Multi Purple,shoes,Malie City,Moon
 Sporty Sneakers,Multi Beige,shoes,Malie City,Sun
@@ -138,7 +138,7 @@ Sporty Bag,Green,bag,Malie City,Moon
 Sporty Bag,Yellow,bag,Malie City,Sun
 Sporty Bag,Blue,bag,Malie City,Moon
 Sporty Bag,Orange,bag,Malie City,Sun
-Sporty Bag,Navy,bag,Malie City,Moon
+Sporty Bag,Navy Blue,bag,Malie City,Moon
 Sporty Bag,Pink,bag,Malie City,Sun
 Sporty Bag,Purple,bag,Malie City,Moon
 Sporty Bag,Beige,bag,Malie City,Sun
@@ -148,7 +148,7 @@ Trilby Hat,Green,hat,Malie City,Moon
 Trilby Hat,Yellow,hat,Malie City,Sun
 Trilby Hat,Blue,hat,Malie City,Moon
 Trilby Hat,Orange,hat,Malie City,Sun
-Trilby Hat,Navy,hat,Malie City,Moon
+Trilby Hat,Navy Blue,hat,Malie City,Moon
 Trilby Hat,Pink,hat,Malie City,Sun
 Trilby Hat,Purple,hat,Malie City,Moon
 Trilby Hat,Beige,hat,Malie City,Sun
@@ -162,11 +162,11 @@ Sports Cap,Fruit,hat,Malie City,Both
 Sports Cap,Sea Cucumber,hat,Malie City,Sun
 Sports Cap,Jellyfish,hat,Malie City,Moon
 Sports Cap,Woolly Crab,hat,Malie City,Moon
-Mirrored Sunglasses,Yellow,glasses,Malie City,Sun
-Mirrored Sunglasses,Blue,glasses,Malie City,Moon
-Mirrored Sunglasses,Red,glasses,Malie City,Sun
-Mirrored Sunglasses,Green,glasses,Malie City,Moon
-Mirrored Sunglasses,White,glasses,Malie City,Both
+Mirrored Sunglasses,Yellow,eyewear,Malie City,Sun
+Mirrored Sunglasses,Blue,eyewear,Malie City,Moon
+Mirrored Sunglasses,Red,eyewear,Malie City,Sun
+Mirrored Sunglasses,Green,eyewear,Malie City,Moon
+Mirrored Sunglasses,White,eyewear,Malie City,Both
 Cobra Tank,–,shirt,Heahea City,Moon
 Iconic Top,–,shirt,Heahea City,Both
 Sporty Tank,Sludge,shirt,Heahea City,Both
@@ -177,46 +177,46 @@ Polka-Dot Ruffled Tank,Green,shirt,Heahea City,Moon
 Polka-Dot Ruffled Tank,Yellow,shirt,Heahea City,Sun
 Polka-Dot Ruffled Tank,Blue,shirt,Heahea City,Moon
 Polka-Dot Ruffled Tank,Orange,shirt,Heahea City,Sun
-Polka-Dot Ruffled Tank,Navy,shirt,Heahea City,Moon
+Polka-Dot Ruffled Tank,Navy Blue,shirt,Heahea City,Moon
 Polka-Dot Ruffled Tank,Pink,shirt,Heahea City,Sun
 Polka-Dot Ruffled Tank,Purple,shirt,Heahea City,Moon
 Polka-Dot Ruffled Tank,Beige,shirt,Heahea City,Sun
 Polka-Dot Ruffled Tank,Gray,shirt,Heahea City,Moon
 Gothorita Tank,–,shirt,Heahea City,Sun
 Luvdisc Tank,–,shirt,Heahea City,Moon
-Sporty Shorts,Sludge,pants,Heahea City,Both
-Flower-Print Flared Skirt,White,pants,Heahea City,Both
-Flower-Print Flared Skirt,Black,pants,Heahea City,Both
-Flower-Print Flared Skirt,Red,pants,Heahea City,Sun
-Flower-Print Flared Skirt,Green,pants,Heahea City,Moon
-Flower-Print Flared Skirt,Yellow,pants,Heahea City,Sun
-Flower-Print Flared Skirt,Blue,pants,Heahea City,Moon
-Flower-Print Flared Skirt,Orange,pants,Heahea City,Sun
-Flower-Print Flared Skirt,Navy,pants,Heahea City,Moon
-Flower-Print Flared Skirt,Pink,pants,Heahea City,Sun
-Flower-Print Flared Skirt,Purple,pants,Heahea City,Moon
-Flower-Print Flared Skirt,Beige,pants,Heahea City,Sun
-Flower-Print Flared Skirt,Gray,pants,Heahea City,Moon
+Sporty Shorts,Sludge,bottoms,Heahea City,Both
+Flower-Print Flared Skirt,White,bottoms,Heahea City,Both
+Flower-Print Flared Skirt,Black,bottoms,Heahea City,Both
+Flower-Print Flared Skirt,Red,bottoms,Heahea City,Sun
+Flower-Print Flared Skirt,Green,bottoms,Heahea City,Moon
+Flower-Print Flared Skirt,Yellow,bottoms,Heahea City,Sun
+Flower-Print Flared Skirt,Blue,bottoms,Heahea City,Moon
+Flower-Print Flared Skirt,Orange,bottoms,Heahea City,Sun
+Flower-Print Flared Skirt,Navy Blue,bottoms,Heahea City,Moon
+Flower-Print Flared Skirt,Pink,bottoms,Heahea City,Sun
+Flower-Print Flared Skirt,Purple,bottoms,Heahea City,Moon
+Flower-Print Flared Skirt,Beige,bottoms,Heahea City,Sun
+Flower-Print Flared Skirt,Gray,bottoms,Heahea City,Moon
 Over-the-Knee Socks,Floral Print,socks,Heahea City,Sun
 Over-the-Knee Socks,Striped,socks,Heahea City,Moon
 Sports Cap,Sludge,hat,Heahea City,Both
-Espadrilles,Order,shoes,Heahea Coty,Both
-Espadrilles,Thunderbolt,shoes,Heahea Coty,Both
-Espadrilles,Scaly,shoes,Heahea Coty,Both
-Espadrilles,Long Neck,shoes,Heahea Coty,Sun
-Espadrilles,Cruel,shoes,Heahea Coty,Moon
-Horn-Rimmed Glasses,White,glasses,Heahea City,Both
-Horn-Rimmed Glasses,Black,glasses,Heahea City,Both
-Horn-Rimmed Glasses,Red,glasses,Heahea City,Sun
-Horn-Rimmed Glasses,Green,glasses,Heahea City,Moon
-Horn-Rimmed Glasses,Yellow,glasses,Heahea City,Sun
-Horn-Rimmed Glasses,Blue,glasses,Heahea City,Moon
-Horn-Rimmed Glasses,Orange,glasses,Heahea City,Sun
-Horn-Rimmed Glasses,Navy,glasses,Heahea City,Moon
-Horn-Rimmed Glasses,Pink,glasses,Heahea City,Sun
-Horn-Rimmed Glasses,Purple,glasses,Heahea City,Moon
-Horn-Rimmed Glasses,Beige,glasses,Heahea City,Sun
-Horn-Rimmed Glasses,Gray,glasses,Heahea City,Moon
+Espadrilles,Order,shoes,Heahea City,Both
+Espadrilles,Thunderbolt,shoes,Heahea City,Both
+Espadrilles,Scaly,shoes,Heahea City,Both
+Espadrilles,Long Neck,shoes,Heahea City,Sun
+Espadrilles,Cruel,shoes,Heahea City,Moon
+Horn-Rimmed Glasses,White,eyewear,Heahea City,Both
+Horn-Rimmed Glasses,Black,eyewear,Heahea City,Both
+Horn-Rimmed Glasses,Red,eyewear,Heahea City,Sun
+Horn-Rimmed Glasses,Green,eyewear,Heahea City,Moon
+Horn-Rimmed Glasses,Yellow,eyewear,Heahea City,Sun
+Horn-Rimmed Glasses,Blue,eyewear,Heahea City,Moon
+Horn-Rimmed Glasses,Orange,eyewear,Heahea City,Sun
+Horn-Rimmed Glasses,Navy Blue,eyewear,Heahea City,Moon
+Horn-Rimmed Glasses,Pink,eyewear,Heahea City,Sun
+Horn-Rimmed Glasses,Purple,eyewear,Heahea City,Moon
+Horn-Rimmed Glasses,Beige,eyewear,Heahea City,Sun
+Horn-Rimmed Glasses,Gray,eyewear,Heahea City,Moon
 Striped V-Neck Tee,White,shirt,Konikoni City,Both
 Striped V-Neck Tee,Black,shirt,Konikoni City,Both
 Striped V-Neck Tee,Red,shirt,Konikoni City,Sun
@@ -224,7 +224,7 @@ Striped V-Neck Tee,Green,shirt,Konikoni City,Moon
 Striped V-Neck Tee,Yellow,shirt,Konikoni City,Sun
 Striped V-Neck Tee,Blue,shirt,Konikoni City,Moon
 Striped V-Neck Tee,Orange,shirt,Konikoni City,Sun
-Striped V-Neck Tee,Navy,shirt,Konikoni City,Moon
+Striped V-Neck Tee,Navy Blue,shirt,Konikoni City,Moon
 Striped V-Neck Tee,Pink,shirt,Konikoni City,Sun
 Striped V-Neck Tee,Purple,shirt,Konikoni City,Moon
 Striped V-Neck Tee,Beige,shirt,Konikoni City,Sun
@@ -236,7 +236,7 @@ Ruffled Tank,Green,shirt,Konikoni City,Moon
 Ruffled Tank,Yellow,shirt,Konikoni City,Sun
 Ruffled Tank,Blue,shirt,Konikoni City,Moon
 Ruffled Tank,Orange,shirt,Konikoni City,Sun
-Ruffled Tank,Navy,shirt,Konikoni City,Moon
+Ruffled Tank,Navy Blue,shirt,Konikoni City,Moon
 Ruffled Tank,Pink,shirt,Konikoni City,Sun
 Ruffled Tank,Purple,shirt,Konikoni City,Moon
 Ruffled Tank,Beige,shirt,Konikoni City,Sun
@@ -248,7 +248,7 @@ Ruffled Blouse,Green,shirt,Konikoni City,Moon
 Ruffled Blouse,Yellow,shirt,Konikoni City,Sun
 Ruffled Blouse,Blue,shirt,Konikoni City,Moon
 Ruffled Blouse,Orange,shirt,Konikoni City,Sun
-Ruffled Blouse,Navy,shirt,Konikoni City,Moon
+Ruffled Blouse,Navy Blue,shirt,Konikoni City,Moon
 Ruffled Blouse,Pink,shirt,Konikoni City,Sun
 Ruffled Blouse,Purple,shirt,Konikoni City,Moon
 Ruffled Blouse,Beige,shirt,Konikoni City,Sun
@@ -260,7 +260,7 @@ Striped Ruffled Blouse,Green,shirt,Konikoni City,Moon
 Striped Ruffled Blouse,Yellow,shirt,Konikoni City,Sun
 Striped Ruffled Blouse,Blue,shirt,Konikoni City,Moon
 Striped Ruffled Blouse,Orange,shirt,Konikoni City,Sun
-Striped Ruffled Blouse,Navy,shirt,Konikoni City,Moon
+Striped Ruffled Blouse,Navy Blue,shirt,Konikoni City,Moon
 Striped Ruffled Blouse,Pink,shirt,Konikoni City,Sun
 Striped Ruffled Blouse,Purple,shirt,Konikoni City,Moon
 Striped Ruffled Blouse,Beige,shirt,Konikoni City,Sun
@@ -271,48 +271,48 @@ Athletic Tank,Green,shirt,Konikoni City,Moon
 Sporty Tank,Legendary,shirt,Konikoni City,Both
 Sporty Tank,Seed,shirt,Konikoni City,Both
 Sporty Tank,Poison Bee,shirt,Konikoni City,Sun
-Capri Pants,White,pants,Konikoni City,Both
-Capri Pants,Black,pants,Konikoni City,Both
-Capri Pants,Red,pants,Konikoni City,Sun
-Capri Pants,Green,pants,Konikoni City,Moon
-Capri Pants,Yellow,pants,Konikoni City,Sun
-Capri Pants,Blue,pants,Konikoni City,Moon
-Capri Pants,Orange,pants,Konikoni City,Sun
-Capri Pants,Navy,pants,Konikoni City,Moon
-Capri Pants,Pink,pants,Konikoni City,Sun
-Capri Pants,Purple,pants,Konikoni City,Moon
-Capri Pants,Beige,pants,Konikoni City,Sun
-Capri Pants,Gray,pants,Konikoni City,Moon
-Pleated Miniskirt,White,pants,Konikoni City,Both
-Pleated Miniskirt,Black,pants,Konikoni City,Both
-Pleated Miniskirt,Red,pants,Konikoni City,Sun
-Pleated Miniskirt,Green,pants,Konikoni City,Moon
-Pleated Miniskirt,Yellow,pants,Konikoni City,Sun
-Pleated Miniskirt,Blue,pants,Konikoni City,Moon
-Pleated Miniskirt,Orange,pants,Konikoni City,Sun
-Pleated Miniskirt,Navy,pants,Konikoni City,Moon
-Pleated Miniskirt,Pink,pants,Konikoni City,Sun
-Pleated Miniskirt,Purple,pants,Konikoni City,Moon
-Pleated Miniskirt,Beige,pants,Konikoni City,Sun
-Pleated Miniskirt,Gray,pants,Konikoni City,Moon
-Bordered Flared Skirt,White,pants,Konikoni City,Both
-Bordered Flared Skirt,Black,pants,Konikoni City,Both
-Bordered Flared Skirt,Red,pants,Konikoni City,Sun
-Bordered Flared Skirt,Green,pants,Konikoni City,Moon
-Bordered Flared Skirt,Yellow,pants,Konikoni City,Sun
-Bordered Flared Skirt,Blue,pants,Konikoni City,Moon
-Bordered Flared Skirt,Orange,pants,Konikoni City,Sun
-Bordered Flared Skirt,Navy,pants,Konikoni City,Moon
-Bordered Flared Skirt,Pink,pants,Konikoni City,Sun
-Bordered Flared Skirt,Purple,pants,Konikoni City,Moon
-Bordered Flared Skirt,Beige,pants,Konikoni City,Sun
-Bordered Flared Skirt,Gray,pants,Konikoni City,Moon
-Athletic Shorts,Beige,pants,Konikoni City,Both
-Athletic Shorts,Pink,pants,Konikoni City,Sun
-Athletic Shorts,Green,pants,Konikoni City,Moon
-Sporty Shorts,Legendary,pants,Konikoni City,Both
-Sporty Shorts,Seed,pants,Konikoni City,Both
-Sporty Shorts,Poison Bee,pants,Konikoni City,Sun
+Capri Pants,White,bottoms,Konikoni City,Both
+Capri Pants,Black,bottoms,Konikoni City,Both
+Capri Pants,Red,bottoms,Konikoni City,Sun
+Capri Pants,Green,bottoms,Konikoni City,Moon
+Capri Pants,Yellow,bottoms,Konikoni City,Sun
+Capri Pants,Blue,bottoms,Konikoni City,Moon
+Capri Pants,Orange,bottoms,Konikoni City,Sun
+Capri Pants,Navy Blue,bottoms,Konikoni City,Moon
+Capri Pants,Pink,bottoms,Konikoni City,Sun
+Capri Pants,Purple,bottoms,Konikoni City,Moon
+Capri Pants,Beige,bottoms,Konikoni City,Sun
+Capri Pants,Gray,bottoms,Konikoni City,Moon
+Pleated Miniskirt,White,bottoms,Konikoni City,Both
+Pleated Miniskirt,Black,bottoms,Konikoni City,Both
+Pleated Miniskirt,Red,bottoms,Konikoni City,Sun
+Pleated Miniskirt,Green,bottoms,Konikoni City,Moon
+Pleated Miniskirt,Yellow,bottoms,Konikoni City,Sun
+Pleated Miniskirt,Blue,bottoms,Konikoni City,Moon
+Pleated Miniskirt,Orange,bottoms,Konikoni City,Sun
+Pleated Miniskirt,Navy Blue,bottoms,Konikoni City,Moon
+Pleated Miniskirt,Pink,bottoms,Konikoni City,Sun
+Pleated Miniskirt,Purple,bottoms,Konikoni City,Moon
+Pleated Miniskirt,Beige,bottoms,Konikoni City,Sun
+Pleated Miniskirt,Gray,bottoms,Konikoni City,Moon
+Bordered Flared Skirt,White,bottoms,Konikoni City,Both
+Bordered Flared Skirt,Black,bottoms,Konikoni City,Both
+Bordered Flared Skirt,Red,bottoms,Konikoni City,Sun
+Bordered Flared Skirt,Green,bottoms,Konikoni City,Moon
+Bordered Flared Skirt,Yellow,bottoms,Konikoni City,Sun
+Bordered Flared Skirt,Blue,bottoms,Konikoni City,Moon
+Bordered Flared Skirt,Orange,bottoms,Konikoni City,Sun
+Bordered Flared Skirt,Navy Blue,bottoms,Konikoni City,Moon
+Bordered Flared Skirt,Pink,bottoms,Konikoni City,Sun
+Bordered Flared Skirt,Purple,bottoms,Konikoni City,Moon
+Bordered Flared Skirt,Beige,bottoms,Konikoni City,Sun
+Bordered Flared Skirt,Gray,bottoms,Konikoni City,Moon
+Athletic Shorts,Beige,bottoms,Konikoni City,Both
+Athletic Shorts,Pink,bottoms,Konikoni City,Sun
+Athletic Shorts,Green,bottoms,Konikoni City,Moon
+Sporty Shorts,Legendary,bottoms,Konikoni City,Both
+Sporty Shorts,Seed,bottoms,Konikoni City,Both
+Sporty Shorts,Poison Bee,bottoms,Konikoni City,Sun
 Knee Socks,White,socks,Konikoni City,Both
 Knee Socks,Black,socks,Konikoni City,Both
 Knee Socks,Red,socks,Konikoni City,Sun
@@ -320,7 +320,7 @@ Knee Socks,Green,socks,Konikoni City,Moon
 Knee Socks,Yellow,socks,Konikoni City,Sun
 Knee Socks,Blue,socks,Konikoni City,Moon
 Knee Socks,Orange,socks,Konikoni City,Sun
-Knee Socks,Navy,socks,Konikoni City,Moon
+Knee Socks,Navy Blue,socks,Konikoni City,Moon
 Knee Socks,Pink,socks,Konikoni City,Sun
 Knee Socks,Purple,socks,Konikoni City,Moon
 Knee Socks,Beige,socks,Konikoni City,Sun
@@ -332,7 +332,7 @@ Sporty Knee Socks,Green,socks,Konikoni City,Moon
 Sporty Knee Socks,Yellow,socks,Konikoni City,Sun
 Sporty Knee Socks,Blue,socks,Konikoni City,Moon
 Sporty Knee Socks,Orange,socks,Konikoni City,Sun
-Sporty Knee Socks,Navy,socks,Konikoni City,Moon
+Sporty Knee Socks,Navy Blue,socks,Konikoni City,Moon
 Sporty Knee Socks,Pink,socks,Konikoni City,Sun
 Sporty Knee Socks,Purple,socks,Konikoni City,Moon
 Sporty Knee Socks,Beige,socks,Konikoni City,Sun
@@ -344,7 +344,7 @@ Low-heeled Sandals,Green,shoes,Konikoni City,Moon
 Low-heeled Sandals,Yellow,shoes,Konikoni City,Sun
 Low-heeled Sandals,Blue,shoes,Konikoni City,Moon
 Low-heeled Sandals,Orange,shoes,Konikoni City,Sun
-Low-heeled Sandals,Navy,shoes,Konikoni City,Moon
+Low-heeled Sandals,Navy Blue,shoes,Konikoni City,Moon
 Low-heeled Sandals,Pink,shoes,Konikoni City,Sun
 Low-heeled Sandals,Purple,shoes,Konikoni City,Moon
 Low-heeled Sandals,Beige,shoes,Konikoni City,Sun
@@ -356,7 +356,7 @@ Espadrilles,Green,shoes,Konikoni City,Moon
 Espadrilles,Yellow,shoes,Konikoni City,Sun
 Espadrilles,Blue,shoes,Konikoni City,Moon
 Espadrilles,Orange,shoes,Konikoni City,Sun
-Espadrilles,Navy,shoes,Konikoni City,Moon
+Espadrilles,Navy Blue,shoes,Konikoni City,Moon
 Espadrilles,Pink,shoes,Konikoni City,Sun
 Espadrilles,Purple,shoes,Konikoni City,Moon
 Espadrilles,Beige,shoes,Konikoni City,Sun
@@ -370,7 +370,7 @@ Sporty Sneakers,Green,shoes,Konikoni City,Moon
 Sporty Sneakers,Yellow,shoes,Konikoni City,Sun
 Sporty Sneakers,Blue,shoes,Konikoni City,Moon
 Sporty Sneakers,Orange,shoes,Konikoni City,Sun
-Sporty Sneakers,Navy,shoes,Konikoni City,Moon
+Sporty Sneakers,Navy Blue,shoes,Konikoni City,Moon
 Sporty Sneakers,Pink,shoes,Konikoni City,Sun
 Sporty Sneakers,Purple,shoes,Konikoni City,Moon
 Sporty Sneakers,Beige,shoes,Konikoni City,Sun
@@ -382,7 +382,7 @@ Messenger Bag,Green,bag,Konikoni City,Moon
 Messenger Bag,Yellow,bag,Konikoni City,Sun
 Messenger Bag,Blue,bag,Konikoni City,Moon
 Messenger Bag,Orange,bag,Konikoni City,Sun
-Messenger Bag,Navy,bag,Konikoni City,Moon
+Messenger Bag,Navy Blue,bag,Konikoni City,Moon
 Messenger Bag,Pink,bag,Konikoni City,Sun
 Messenger Bag,Purple,bag,Konikoni City,Moon
 Messenger Bag,Beige,bag,Konikoni City,Sun
@@ -395,7 +395,7 @@ Ruffled Shoulder Bag,Green,bag,Konikoni City,Moon
 Ruffled Shoulder Bag,Yellow,bag,Konikoni City,Sun
 Ruffled Shoulder Bag,Blue,bag,Konikoni City,Moon
 Ruffled Shoulder Bag,Orange,bag,Konikoni City,Sun
-Ruffled Shoulder Bag,Navy,bag,Konikoni City,Moon
+Ruffled Shoulder Bag,Navy Blue,bag,Konikoni City,Moon
 Ruffled Shoulder Bag,Pink,bag,Konikoni City,Sun
 Ruffled Shoulder Bag,Purple,bag,Konikoni City,Moon
 Athletic Cap,Beige,hat,Konikoni City,Both
@@ -411,7 +411,7 @@ V-Neck Tee,Green,shirt,Hau'oli City,Moon
 V-Neck Tee,Yellow,shirt,Hau'oli City,Sun
 V-Neck Tee,Blue,shirt,Hau'oli City,Moon
 V-Neck Tee,Orange,shirt,Hau'oli City,Sun
-V-Neck Tee,Navy,shirt,Hau'oli City,Moon
+V-Neck Tee,Navy Blue,shirt,Hau'oli City,Moon
 V-Neck Tee,Pink,shirt,Hau'oli City,Sun
 V-Neck Tee,Purple,shirt,Hau'oli City,Moon
 V-Neck Tee,Beige,shirt,Hau'oli City,Sun
@@ -423,7 +423,7 @@ Tank Top,Green,shirt,Hau'oli City,Moon
 Tank Top,Yellow,shirt,Hau'oli City,Sun
 Tank Top,Blue,shirt,Hau'oli City,Moon
 Tank Top,Orange,shirt,Hau'oli City,Sun
-Tank Top,Navy,shirt,Hau'oli City,Moon
+Tank Top,Navy Blue,shirt,Hau'oli City,Moon
 Tank Top,Pink,shirt,Hau'oli City,Sun
 Tank Top,Purple,shirt,Hau'oli City,Moon
 Tank Top,Beige,shirt,Hau'oli City,Sun
@@ -432,30 +432,30 @@ Flower-Print Tank,–,shirt,Hau'oli City,Sun
 Surfing Tank,–,shirt,Hau'oli City,Both
 Alola Sea Tank,–,shirt,Hau'oli City,Moon
 Collegiate Tank,–,shirt,Hau'oli City,Both
-Pleated Shorts,White,pants,Hau'oli City,Both
-Pleated Shorts,Black,pants,Hau'oli City,Both
-Pleated Shorts,Red,pants,Hau'oli City,Sun
-Pleated Shorts,Green,pants,Hau'oli City,Moon
-Pleated Shorts,Yellow,pants,Hau'oli City,Sun
-Pleated Shorts,Blue,pants,Hau'oli City,Moon
-Pleated Shorts,Orange,pants,Hau'oli City,Sun
-Pleated Shorts,Navy,pants,Hau'oli City,Moon
-Pleated Shorts,Pink,pants,Hau'oli City,Sun
-Pleated Shorts,Purple,pants,Hau'oli City,Moon
-Pleated Shorts,Beige,pants,Hau'oli City,Sun
-Pleated Shorts,Gray,pants,Hau'oli City,Moon
-Casual Shorts,White,pants,Hau'oli City,Both
-Casual Shorts,Black,pants,Hau'oli City,Both
-Casual Shorts,Red,pants,Hau'oli City,Sun
-Casual Shorts,Green,pants,Hau'oli City,Moon
-Casual Shorts,Yellow,pants,Hau'oli City,Sun
-Casual Shorts,Blue,pants,Hau'oli City,Moon
-Casual Shorts,Orange,pants,Hau'oli City,Sun
-Casual Shorts,Navy,pants,Hau'oli City,Moon
-Casual Shorts,Pink,pants,Hau'oli City,Sun
-Casual Shorts,Purple,pants,Hau'oli City,Moon
-Casual Shorts,Beige,pants,Hau'oli City,Sun
-Casual Shorts,Gray,pants,Hau'oli City,Moon
+Pleated Shorts,White,bottoms,Hau'oli City,Both
+Pleated Shorts,Black,bottoms,Hau'oli City,Both
+Pleated Shorts,Red,bottoms,Hau'oli City,Sun
+Pleated Shorts,Green,bottoms,Hau'oli City,Moon
+Pleated Shorts,Yellow,bottoms,Hau'oli City,Sun
+Pleated Shorts,Blue,bottoms,Hau'oli City,Moon
+Pleated Shorts,Orange,bottoms,Hau'oli City,Sun
+Pleated Shorts,Navy Blue,bottoms,Hau'oli City,Moon
+Pleated Shorts,Pink,bottoms,Hau'oli City,Sun
+Pleated Shorts,Purple,bottoms,Hau'oli City,Moon
+Pleated Shorts,Beige,bottoms,Hau'oli City,Sun
+Pleated Shorts,Gray,bottoms,Hau'oli City,Moon
+Casual Shorts,White,bottoms,Hau'oli City,Both
+Casual Shorts,Black,bottoms,Hau'oli City,Both
+Casual Shorts,Red,bottoms,Hau'oli City,Sun
+Casual Shorts,Green,bottoms,Hau'oli City,Moon
+Casual Shorts,Yellow,bottoms,Hau'oli City,Sun
+Casual Shorts,Blue,bottoms,Hau'oli City,Moon
+Casual Shorts,Orange,bottoms,Hau'oli City,Sun
+Casual Shorts,Navy Blue,bottoms,Hau'oli City,Moon
+Casual Shorts,Pink,bottoms,Hau'oli City,Sun
+Casual Shorts,Purple,bottoms,Hau'oli City,Moon
+Casual Shorts,Beige,bottoms,Hau'oli City,Sun
+Casual Shorts,Gray,bottoms,Hau'oli City,Moon
 Over-the-Knee Socks,White,socks,Hau'oli City,Both
 Over-the-Knee Socks,Black,socks,Hau'oli City,Both
 Over-the-Knee Socks,Red,socks,Hau'oli City,Sun
@@ -463,7 +463,7 @@ Over-the-Knee Socks,Green,socks,Hau'oli City,Moon
 Over-the-Knee Socks,Yellow,socks,Hau'oli City,Sun
 Over-the-Knee Socks,Blue,socks,Hau'oli City,Moon
 Over-the-Knee Socks,Orange,socks,Hau'oli City,Sun
-Over-the-Knee Socks,Navy,socks,Hau'oli City,Moon
+Over-the-Knee Socks,Navy Blue,socks,Hau'oli City,Moon
 Over-the-Knee Socks,Pink,socks,Hau'oli City,Sun
 Over-the-Knee Socks,Purple,socks,Hau'oli City,Moon
 Over-the-Knee Socks,Beige,socks,Hau'oli City,Sun
@@ -481,39 +481,39 @@ Street Cap,Rare Long Neck,hat,Malie Community Center,Sun
 Street Cap,Rare Cruel,hat,Malie Community Center,Sun
 Street Cap,Rare Thunderbolt,hat,Malie Community Center,Sun
 Street Cap,Rare Scaly,hat,Malie Community Center,Sun
-Flower Barrette,White,accessory,Olivia's jewelry shop,Both
-Flower Barrette,Black,accessory,Olivia's jewelry shop,Both
-Flower Barrette,Red,accessory,Olivia's jewelry shop,Sun
-Flower Barrette,Green,accessory,Olivia's jewelry shop,Moon
-Flower Barrette,Yellow,accessory,Olivia's jewelry shop,Sun
-Flower Barrette,Blue,accessory,Olivia's jewelry shop,Moon
-Flower Barrette,Orange,accessory,Olivia's jewelry shop,Sun
-Flower Barrette,Navy,accessory,Olivia's jewelry shop,Moon
-Flower Barrette,Pink,accessory,Olivia's jewelry shop,Sun
-Flower Barrette,Purple,accessory,Olivia's jewelry shop,Moon
-Flower Barrette,Beige,accessory,Olivia's jewelry shop,Sun
-Flower Barrette,Gray,accessory,Olivia's jewelry shop,Moon
-Satin Bow Headband,White,accessory,Olivia's jewelry shop,Both
-Satin Bow Headband,Black,accessory,Olivia's jewelry shop,Both
-Satin Bow Headband,Red,accessory,Olivia's jewelry shop,Sun
-Satin Bow Headband,Green,accessory,Olivia's jewelry shop,Moon
-Satin Bow Headband,Yellow,accessory,Olivia's jewelry shop,Sun
-Satin Bow Headband,Blue,accessory,Olivia's jewelry shop,Moon
-Satin Bow Headband,Orange,accessory,Olivia's jewelry shop,Sun
-Satin Bow Headband,Navy,accessory,Olivia's jewelry shop,Moon
-Satin Bow Headband,Pink,accessory,Olivia's jewelry shop,Sun
-Satin Bow Headband,Purple,accessory,Olivia's jewelry shop,Moon
-Satin Bow Headband,Beige,accessory,Olivia's jewelry shop,Sun
-Satin Bow Headband,Gray,accessory,Olivia's jewelry shop,Moon
-Sea-Star Headband,White,accessory,Olivia's jewelry shop,Both
-Sea-Star Headband,Black,accessory,Olivia's jewelry shop,Both
-Sea-Star Headband,Red,accessory,Olivia's jewelry shop,Sun
-Sea-Star Headband,Green,accessory,Olivia's jewelry shop,Moon
-Sea-Star Headband,Yellow,accessory,Olivia's jewelry shop,Sun
-Sea-Star Headband,Blue,accessory,Olivia's jewelry shop,Moon
-Sea-Star Headband,Orange,accessory,Olivia's jewelry shop,Sun
-Sea-Star Headband,Navy,accessory,Olivia's jewelry shop,Moon
-Sea-Star Headband,Pink,accessory,Olivia's jewelry shop,Sun
-Sea-Star Headband,Purple,accessory,Olivia's jewelry shop,Moon
-Sea-Star Headband,Beige,accessory,Olivia's jewelry shop,Sun
-Sea-Star Headband,Gray,accessory,Olivia's jewelry shop,Moon
+Flower Barrette,White,hair accessory,Olivia's jewelry shop,Both
+Flower Barrette,Black,hair accessory,Olivia's jewelry shop,Both
+Flower Barrette,Red,hair accessory,Olivia's jewelry shop,Sun
+Flower Barrette,Green,hair accessory,Olivia's jewelry shop,Moon
+Flower Barrette,Yellow,hair accessory,Olivia's jewelry shop,Sun
+Flower Barrette,Blue,hair accessory,Olivia's jewelry shop,Moon
+Flower Barrette,Orange,hair accessory,Olivia's jewelry shop,Sun
+Flower Barrette,Navy Blue,hair accessory,Olivia's jewelry shop,Moon
+Flower Barrette,Pink,hair accessory,Olivia's jewelry shop,Sun
+Flower Barrette,Purple,hair accessory,Olivia's jewelry shop,Moon
+Flower Barrette,Beige,hair accessory,Olivia's jewelry shop,Sun
+Flower Barrette,Gray,hair accessory,Olivia's jewelry shop,Moon
+Satin Bow Headband,White,hair accessory,Olivia's jewelry shop,Both
+Satin Bow Headband,Black,hair accessory,Olivia's jewelry shop,Both
+Satin Bow Headband,Red,hair accessory,Olivia's jewelry shop,Sun
+Satin Bow Headband,Green,hair accessory,Olivia's jewelry shop,Moon
+Satin Bow Headband,Yellow,hair accessory,Olivia's jewelry shop,Sun
+Satin Bow Headband,Blue,hair accessory,Olivia's jewelry shop,Moon
+Satin Bow Headband,Orange,hair accessory,Olivia's jewelry shop,Sun
+Satin Bow Headband,Navy Blue,hair accessory,Olivia's jewelry shop,Moon
+Satin Bow Headband,Pink,hair accessory,Olivia's jewelry shop,Sun
+Satin Bow Headband,Purple,hair accessory,Olivia's jewelry shop,Moon
+Satin Bow Headband,Beige,hair accessory,Olivia's jewelry shop,Sun
+Satin Bow Headband,Gray,hair accessory,Olivia's jewelry shop,Moon
+Sea-Star Headband,White,hair accessory,Olivia's jewelry shop,Both
+Sea-Star Headband,Black,hair accessory,Olivia's jewelry shop,Both
+Sea-Star Headband,Red,hair accessory,Olivia's jewelry shop,Sun
+Sea-Star Headband,Green,hair accessory,Olivia's jewelry shop,Moon
+Sea-Star Headband,Yellow,hair accessory,Olivia's jewelry shop,Sun
+Sea-Star Headband,Blue,hair accessory,Olivia's jewelry shop,Moon
+Sea-Star Headband,Orange,hair accessory,Olivia's jewelry shop,Sun
+Sea-Star Headband,Navy Blue,hair accessory,Olivia's jewelry shop,Moon
+Sea-Star Headband,Pink,hair accessory,Olivia's jewelry shop,Sun
+Sea-Star Headband,Purple,hair accessory,Olivia's jewelry shop,Moon
+Sea-Star Headband,Beige,hair accessory,Olivia's jewelry shop,Sun
+Sea-Star Headband,Gray,hair accessory,Olivia's jewelry shop,Moon
