@@ -1,22 +1,26 @@
 <h1>Listing Clothes</h1>
 <%= for {shop, map_of_clothes_by_type} <- @clothes_map do %>
   <h2> <%= shop %></h2>
-  <%= for {type, list_of_clothes} <- map_of_clothes_by_type do %>
+  <%= for {type, map_of_clothes_by_name} <- map_of_clothes_by_type do %>
     <h3> <%= type %> </h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Color</th>
-          <th>Game</th>
-          <th></th>
-         </tr>
-      </thead>
-    <tbody>
-    <%= for clothes <- list_of_clothes do %>
-        <%= live_component PokemonCoutureWeb.Components.ClothesComponent, id: clothes.id, clothes: clothes, user: @user %>
+    <%= for {name, list_of_clothes} <- map_of_clothes_by_name do %>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3" style="text-align:center"> <b> <%= name %> </b> </th>
+            </tr>
+            <tr>
+              <th>Color</th>
+              <th>Game</th>
+              <th></th>
+            </tr>
+          </thead>
+        <tbody>
+        <%= for clothes <- list_of_clothes do %>
+            <%= live_component PokemonCoutureWeb.Components.ClothesComponent, id: clothes.id, clothes: clothes, user: @user %>
+        <% end %>
+          </tbody>
+        </table>
     <% end %>
-      </tbody>
-    </table>
   <% end %>
 <% end %>

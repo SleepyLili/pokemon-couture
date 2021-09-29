@@ -6,7 +6,6 @@ defmodule PokemonCoutureWeb.Components.ClothesComponent do
   def render(assigns) do
     ~L"""
     <tr>
-        <td><%= @clothes.name %></td>
         <td><%= @clothes.color %></td>
         <td><%= @clothes.game %></td>
 
