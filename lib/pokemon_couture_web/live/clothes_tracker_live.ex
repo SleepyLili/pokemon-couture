@@ -31,6 +31,9 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
 
   def inner_map_creator({type, list}, acc) do
     clothes_map = Enum.reduce(list, %{}, &assign_clothespiece_to_map/2)
+    clothes_map = for {shop, map} <- clothes_map
+                   do {shop, Enum.sort_by(map, fn %Clothes{game: game} -> game end)}
+                  end
     Map.put(acc, type, clothes_map)
   end
 
@@ -38,7 +41,7 @@ defmodule PokemonCoutureWeb.ClothesTrackerLive do
     user = Accounts.get_user_by_session_token(user_token)
     clothes_map = Enum.reduce(Shops.list_clothes_with_owners(), %{}, &create_shop_map/2)
     clothes_map = for {shop, map} <- clothes_map
-                  do {shop, Enum.reduce(map, %{}, &inner_map_creator/2)}
+                    do {shop, Enum.reduce(map, %{}, &inner_map_creator/2)}
                   end
     socket =
       socket
