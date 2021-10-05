@@ -11,6 +11,9 @@ defmodule PokemonCoutureWeb.Components.ClothesComponent do
 
         <td>
         <button
+        <%= if @user in @clothes.users do %>
+        class="button button-outline"
+        <% end %>
         phx-click="toggle-active"
         phx-target="<%= @myself %>"
         >
