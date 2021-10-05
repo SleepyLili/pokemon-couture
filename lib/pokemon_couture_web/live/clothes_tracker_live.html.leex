@@ -4,15 +4,15 @@
   <%= for {type, map_of_clothes_by_name} <- map_of_clothes_by_type do %>
     <h3> <%= type %> </h3>
     <%= for {name, list_of_clothes} <- map_of_clothes_by_name do %>
-        <table>
+        <table class="tracker-table">
           <thead>
             <tr>
               <th colspan="3" style="text-align:center"> <b> <%= name %> </b> </th>
             </tr>
             <tr>
-              <th>Color</th>
-              <th>Game</th>
-              <th></th>
+              <th class="row-color">Color</th>
+              <th class="row-game">Game</th>
+              <th class="row-toggle"></th>
             </tr>
           </thead>
         <tbody>
