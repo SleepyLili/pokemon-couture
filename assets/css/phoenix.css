@@ -100,6 +100,17 @@ header nav a {
   }
 }
 
+/*.clothes-type {
+  column-count: 2;
+}*/
+.shop-all {
+  column-count: 2;
+}
+
 .tracker-table {
-  width: 40rem
+  width: 40rem;
+  -webkit-column-break-inside:avoid;
+  -moz-column-break-inside:avoid;
+  -o-column-break-inside:avoid;
+  -ms-column-break-inside:avoid;
 }

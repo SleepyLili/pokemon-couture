@@ -1,8 +1,11 @@
 <h1>Listing Clothes</h1>
+<div class="trackers">
 <%= for {shop, map_of_clothes_by_type} <- @clothes_map do %>
   <h2> <%= shop %></h2>
+  <div class="shop-all">
   <%= for {type, map_of_clothes_by_name} <- map_of_clothes_by_type do %>
-    <h3> <%= type %> </h3>
+    <!-- <h3> <%= type %> </h3> -->
+    <div class="clothes-type">
     <%= for {name, list_of_clothes} <- map_of_clothes_by_name do %>
         <table class="tracker-table">
           <thead>
@@ -22,5 +25,8 @@
           </tbody>
         </table>
     <% end %>
+    </div>
   <% end %>
+  </div>
 <% end %>
+</div>
