@@ -2,12 +2,12 @@
 
 A work-in-progress Phoenix app for tracking clothes acquisition in Pokémon Sun & Moon.
 
-Only supports female clothes, and has only been checked against a
+Currently only supports female clothes, and has only been checked against a
 Pokémon Moon cartridge (and a bulbapedia clothes list.)
-A check against Pokémon Sun would be appreciated.
+Another check against Pokémon Sun would be useful.
 
 Currently, you need to have an account on the site to be able to use the tracker.
-I would like to make a version that uses browser cache to save the data as well.
+I would like to make a version that supports using the tracker while not logged in as well.
 ## Other Clothing Masterlists - Inacuraccies
 My app has adapted the following masterlists, however, when checking in the
 actual Pokémon Moon game, I found several inacuraccies:
