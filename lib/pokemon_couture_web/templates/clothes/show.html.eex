@@ -7,12 +7,15 @@
     <%= @clothes.name %>
   </li>
 
-
   <li>
     <strong>Color:</strong>
     <%= @clothes.color %>
   </li>
 
+  <li>
+    <strong>Type:</strong>
+    <%= @clothes.type %>
+  </li>
 
   <li>
     <strong>Location:</strong>
@@ -25,6 +28,4 @@
   </li>
 
 </ul>
-
-<span><%= link "Edit", to: Routes.clothes_path(@conn, :edit, @clothes) %></span>
 <span><%= link "Back", to: Routes.clothes_path(@conn, :index) %></span>
