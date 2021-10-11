@@ -9,10 +9,10 @@
     <h2>Navigation</h2>
     <ul>
       <li>
-        <a href="http://localhost:4000/tracker">Clothes tracker</a>
+        <%= link "Clothes tracker", to: Routes.live_path(@conn, PokemonCoutureWeb.ClothesTrackerLive) %>
       </li>
       <li>
-        <a href="http://localhost:4000/clothes">List of clothes</a>
+        <%= link "List of Clothes", to: Routes.clothes_path(@conn, :index) %>
       </li>
     </ul>
   </article>

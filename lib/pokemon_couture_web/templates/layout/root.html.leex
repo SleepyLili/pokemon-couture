@@ -14,14 +14,14 @@
       <section class="container">
         <nav role="navigation">
           <ul>
-            <li><a href="http://localhost:4000/tracker">Clothes tracker</a></li>
+            <%= link "Clothes tracker", to: Routes.live_path(@conn, PokemonCoutureWeb.ClothesTrackerLive) %>
             <%= if function_exported?(Routes, :live_dashboard_path, 2) do %>
               <li><%= link "LiveDashboard", to: Routes.live_dashboard_path(@conn, :home) %></li>
             <% end %>
           </ul>
           <%= render "_user_menu.html", assigns %>
         </nav>
-        <a href="http://localhost:4000/" class="phx-logo"> <!-- TODO: needs a way to show the proper link -->
+        <a href="<%= Routes.page_path(@conn, :index) %>" class="phx-logo"> <!-- TODO: needs a way to show the proper link -->
           <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
         </a>
       </section>
