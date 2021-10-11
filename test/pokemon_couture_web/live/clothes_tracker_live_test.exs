@@ -12,6 +12,6 @@ defmodule PokemonCoutureWeb.ClothesTrackerLiveTest do
   test "logged in user sees page", %{conn: conn} do
     conn = conn |> log_in_user(user_fixture())
     {:ok, _view, html} = live(conn, "/tracker")
-    assert html =~ "Listing Clothes"
+    assert html =~ "Clothes Tracker"
   end
 end
