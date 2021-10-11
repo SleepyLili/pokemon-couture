@@ -7,6 +7,10 @@
     </div>
   <% end %>
 
+<p><b>Please note:</b> As of now, the app keeps track of your email, but doesn't yet use the information for anything.</p>
+<p>Email verification is not needed for anything, and if you want to change the e-mail address connected with your account,
+   you have to contact the admin.</p>
+
   <%= label f, :username %>
   <%= text_input f, :username, required: true %>
   <%= error_tag f, :username %>
