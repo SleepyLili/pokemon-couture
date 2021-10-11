@@ -12,7 +12,7 @@
         <%= link "Clothes tracker", to: Routes.live_path(@conn, PokemonCoutureWeb.ClothesTrackerLive) %>
       </li>
       <li>
-        <%= link "List of Clothes", to: Routes.clothes_path(@conn, :index) %>
+        <%= link "List of clothes", to: Routes.clothes_path(@conn, :index) %>
       </li>
     </ul>
   </article>
