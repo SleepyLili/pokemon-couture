@@ -35,6 +35,7 @@ defmodule PokemonCouture.Accounts.User do
     user
     |> cast(attrs, [:username, :email, :password])
     |> validate_username()
+    |> validate_email()
     |> validate_password(opts)
   end
 
