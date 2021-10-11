@@ -1,37 +1,29 @@
 <section class="phx-hero">
   <h1><%= gettext "Welcome to %{name}!", name: "Pokémon Couture" %></h1>
   <p>Tracking tool for clothes in Pokémon Sun & Moon.</p>
+  <p>After you create an account, you can use the Clothes tracker page below.</p>
 </section>
 
 <section class="row">
   <article class="column">
-    <h2>Links</h2>
+    <h2>Navigation</h2>
     <ul>
       <li>
-        <a href="http://localhost:4000/clothes">Clothes page</a>
+        <a href="http://localhost:4000/tracker">Clothes tracker</a>
       </li>
       <li>
-        <a href="http://localhost:4000/tracker">Live clothes tracker</a>
-      </li>
-      <li>
-        <a href="https://github.com/SleepyLili/pokemon-couture">Source</a>
+        <a href="http://localhost:4000/clothes">List of clothes</a>
       </li>
     </ul>
   </article>
   <article class="column">
-    <h2>Help</h2>
+    <h2>Links</h2>
     <ul>
       <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
+        <a href="https://github.com/SleepyLili/pokemon-couture">Source</a>
       </li>
       <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-      <li>
-        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
+        <a href="https://raru.re/@pasty">My mastodon profile</a>
       </li>
     </ul>
   </article>
