@@ -9,8 +9,8 @@ defmodule PokemonCoutureWeb.UserResetPasswordController do
     render(conn, "new.html")
   end
 
-  def create(conn, %{"user" => %{"email" => email}}) do
-    if user = Accounts.get_user_by_email(email) do
+  def create(conn, %{"user" => %{"username" => username}}) do
+    if user = Accounts.get_user_by_username(username) do
       Accounts.deliver_user_reset_password_instructions(
         user,
         &Routes.user_reset_password_url(conn, :edit, &1)

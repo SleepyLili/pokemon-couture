@@ -4,6 +4,7 @@ defmodule PokemonCouture.Accounts.User do
 
   @derive {Inspect, except: [:password]}
   schema "users" do
+    field :username, :string
     field :email, :string
     field :password, :string, virtual: true
     field :hashed_password, :string
@@ -32,9 +33,19 @@ defmodule PokemonCouture.Accounts.User do
   """
   def registration_changeset(user, attrs, opts \\ []) do
     user
-    |> cast(attrs, [:email, :password])
-    |> validate_email()
+    |> cast(attrs, [:username, :email, :password])
+    |> validate_username()
     |> validate_password(opts)
+  end
+
+  defp validate_username(changeset) do
+    changeset
+    |> validate_required([:username])
+    |> validate_format(:username, ~r/^[^\s]+$/, message: "must have no spaces")
+    |> validate_length(:username, max: 160)
+    |> validate_length(:username, min: 3)
+    |> unsafe_validate_unique(:username, PokemonCouture.Repo)
+    |> unique_constraint(:username)
   end
 
   defp validate_email(changeset) do
