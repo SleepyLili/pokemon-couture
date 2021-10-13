@@ -25,7 +25,8 @@ defmodule PokemonCoutureWeb.UserSettingsController do
         conn
         |> put_flash(
           :info,
-          "A link to confirm your email change has been sent to the new address."
+          "Your request has been logged, please contact the admin to complete the change process."
+          # "A link to confirm your email change has been sent to the new address."
         )
         |> redirect(to: Routes.user_settings_path(conn, :edit))
 
