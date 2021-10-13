@@ -22,7 +22,7 @@ Some of those are:
 - Better look for the tracker page
   - Display clothes in a more organized manner
   - Sort clothes the same way the game does it
-## Other Clothing Masterlists - Inacuraccies
+## Other clothing masterlists - inacuraccies
 My app has adapted the following masterlists, however, when checking in the
 actual Pokémon Moon game, I found several inacuraccies:
 
