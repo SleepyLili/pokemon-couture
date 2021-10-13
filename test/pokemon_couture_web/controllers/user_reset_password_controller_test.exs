@@ -22,7 +22,7 @@ defmodule PokemonCoutureWeb.UserResetPasswordControllerTest do
     test "sends a new reset password token", %{conn: conn, user: user} do
       conn =
         post(conn, Routes.user_reset_password_path(conn, :create), %{
-          "user" => %{"email" => user.email}
+          "user" => %{"username" => user.username}
         })
 
       assert redirected_to(conn) == "/"

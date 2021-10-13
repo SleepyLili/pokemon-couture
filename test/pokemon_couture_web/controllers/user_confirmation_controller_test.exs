@@ -46,7 +46,7 @@ defmodule PokemonCoutureWeb.UserConfirmationControllerTest do
     test "does not send confirmation token if email is invalid", %{conn: conn} do
       conn =
         post(conn, Routes.user_confirmation_path(conn, :create), %{
-          "user" => %{"email" => "unknown@example.com"}
+          "user" => %{"username" => "unknown"}
         })
 
       assert redirected_to(conn) == "/"
