@@ -22,7 +22,7 @@ defmodule PokemonCoutureWeb.UserConfirmationControllerTest do
     test "sends a new confirmation token", %{conn: conn, user: user} do
       conn =
         post(conn, Routes.user_confirmation_path(conn, :create), %{
-          "user" => %{"email" => user.email}
+          "user" => %{"username" => user.username}
         })
 
       assert redirected_to(conn) == "/"
@@ -35,7 +35,7 @@ defmodule PokemonCoutureWeb.UserConfirmationControllerTest do
 
       conn =
         post(conn, Routes.user_confirmation_path(conn, :create), %{
-          "user" => %{"email" => user.email}
+          "user" => %{"username" => user.username}
         })
 
       assert redirected_to(conn) == "/"

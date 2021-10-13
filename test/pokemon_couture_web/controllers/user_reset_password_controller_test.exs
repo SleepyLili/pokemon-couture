@@ -33,7 +33,7 @@ defmodule PokemonCoutureWeb.UserResetPasswordControllerTest do
     test "does not send reset password token if email is invalid", %{conn: conn} do
       conn =
         post(conn, Routes.user_reset_password_path(conn, :create), %{
-          "user" => %{"email" => "unknown@example.com"}
+          "user" => %{"username" => "unknown"}
         })
 
       assert redirected_to(conn) == "/"
