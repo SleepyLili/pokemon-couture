@@ -24,7 +24,7 @@ To run the application in prod, you need to do some additional setup. Essentiall
 1. `export` the SECRET_KEY_BASE and DATABASE_URL bash variables. You can get a secret with `mix phx.gen.secret`.
 2. Run `npm install` in the `assets` subfolder, then run `npm run deploy --prefix ./assets` in the project root folder.
 3. Run `mix phx.digest` in the root folder.
-4. Run the server with PORT and MIX_ENV variables set, i.e. `PORT=4001 MIX_ENV=prod mix phx.server` (or `PORT=4001 MIX_ENV=prod elixir --erl "-detached" -S mix phx.server`).
+4. Run the server with PORT, HOST and MIX_ENV variables set, i.e. `PORT=4001 MIX_ENV=prod HOST=couture.pikachu.rocks mix phx.server` (or `PORT=4001 MIX_ENV=prod HOST=couture.pikachu.rocks elixir --erl "-detached" -S mix phx.server`).
 ## License and attributions
 `assets/static/images/pikachu.png` is a [pikachu icon by WEBTECHOPS LLP from the Noun Project](https://thenounproject.com/term/pokemon/2122740/), licensed as Creative Commons CCBY.
 
