@@ -6,7 +6,7 @@ Only supports female clothes for now, and has only been checked against a
 Pokémon Moon cartridge (and a bulbapedia clothes list.)
 Another check against Pokémon Sun would be useful.
 
-I run a public version of the site at: TODO: pikachu.rocks
+I run a public version of the site at: https://couture.pikachu.rocks/
 
 Currently, you need to have an account on the site to be able to use the tracker.
 Also, there is no e-mail server connected, so e-mails are not verified,
