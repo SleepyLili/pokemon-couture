@@ -14,12 +14,17 @@ and password resets and e-mail changes have to be done by contacting the admin.
 
 ## TODO: Installation
 Here is how to spin up your own Pokémon Couture Instance.
-1. Make sure you have [Elixir](https://elixir-lang.org/install.html), [Phoenix](https://hexdocs.pm/phoenix/installation.html), and a database like [PostgreSQL](https://wiki.postgresql.org/wiki/Detailed_installation_guides) installed. Also make sure that you have a C compiler and make.
+1. Make sure you have [Elixir](https://elixir-lang.org/install.html), [Phoenix](https://hexdocs.pm/phoenix/installation.html), and a database like [PostgreSQL](https://wiki.postgresql.org/wiki/Detailed_installation_guides) installed. You will also need `npm`. Also make sure that you have a C compiler and make.
 2. Clone this git repository.
 3. In the repository folder, run `mix deps.get`
-4. If you're running the app in prod, edit the prod.exs and prod.secret.exs files with config: url host, database info and secret key base.
-5. Run `mix ecto.setup` (`MIX_ENV=prod mix ecto.setup` when in prod.)
-
+At this point the setup is good enough for local testing. You can run `iex -S mix phx.server` and go to `localhost:4000` to see the page in action.
+For instructions on running the app in prod, read below.
+### Running in prod
+To run the application in prod, you need to do some additional setup. Essentially the contents of the [Phoenix deployment guide](https://hexdocs.pm/phoenix/1.5.13/deployment.html#content).
+1. `export` the SECRET_KEY_BASE and DATABASE_URL bash variables. You can get a secret with `mix phx.gen.secret`.
+2. Run `npm install` in the `assets` subfolder, then run `npm run deploy --prefix ./assets` in the project root folder.
+3. Run `mix phx.digest` in the root folder.
+4. Run the server with PORT and MIX_ENV variables set, i.e. `PORT=4001 MIX_ENV=prod mix phx.server` (or `PORT=4001 MIX_ENV=prod elixir --erl "-detached" -S mix phx.server`).
 ## License and attributions
 `assets/static/images/pikachu.png` is a [pikachu icon by WEBTECHOPS LLP from the Noun Project](https://thenounproject.com/term/pokemon/2122740/), licensed as Creative Commons CCBY.
 
