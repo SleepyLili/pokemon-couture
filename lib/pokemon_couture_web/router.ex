@@ -22,7 +22,7 @@ defmodule PokemonCoutureWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    resources "/clothes", ClothesController
+    resources "/clothes", ClothesController, only: [:index, :show]
 
   end
 
