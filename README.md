@@ -1,10 +1,6 @@
 # Pokémon Couture
 
-A work-in-progress Phoenix app for tracking clothes acquisition in Pokémon Sun & Moon.
-
-Only supports female clothes for now, and has only been checked against a
-Pokémon Moon cartridge (and a bulbapedia clothes list.)
-Another check against Pokémon Sun would be useful.
+A work-in-progress Phoenix app for tracking clothes acquisition in Pokémon Sun & Moon. Only supports female clothes for now.
 
 I run a public version of the site at: https://couture.pikachu.rocks/ 
 
@@ -20,17 +16,16 @@ Here is how to spin up your own Pokémon Couture Instance.
 At this point the setup is good enough for local testing. You can run `mix ecto setup`, then `iex -S mix phx.server` and go to `localhost:4000` to see the page in action.
 For instructions on running the app in prod, read below.
 ### Running in prod
-To run the application in prod, you need to do some additional setup.
-You need to set a few environment variables, and run a few commands to set-up the app in production mode.
+To run the application in prod, you need to set a few environment variables, and run a few more commands.
 #### Environment variables
 - `MIX_ENV=prod` to tell mix that you're running in prod.
 - `SECRET_KEY_BASE` for your secret. You can generate one with `mix phx.gen.secret`.
 - `DATABASE_URL` in the format of `ecto://USER:PASS@HOST/database` to connect to your database.
 - `PORT` for your app port. (usually 4000 or 4001)
-
-**Optional:**
+##### Optional:
 - `SENTRY_DSN` for your Sentry DSN if you're planning to track errors with Sentry.
 #### Preparing prod
+All of those commands are assuming you set the environment variables above.
 1. Run `npm install` in the `assets` subfolder, then run `npm run deploy --prefix ./assets` in the project root folder.
 2. Run `mix phx.digest` in the project root folder.
 3. Run `mix ecto.setup` to set up the database (and seed it).
@@ -45,6 +40,7 @@ While the app is currently in a state that works, there are some improvements I 
 Some of those are:
 - Support for male clothes
 - Support for the few extra items from Ultra Sun and Ultra Moon
+- Check the list against a real Pokémon Sun game (I only checked with my own Pokémon Moon cartridge.)
 - A version of the tracker that works without an account
   - A transfer feature that allows to copy that progress upon account creation
 - Working e-mail verification
