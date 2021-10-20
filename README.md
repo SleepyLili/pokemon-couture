@@ -6,26 +6,36 @@ Only supports female clothes for now, and has only been checked against a
 Pokémon Moon cartridge (and a bulbapedia clothes list.)
 Another check against Pokémon Sun would be useful.
 
-I run a public version of the site at: https://couture.pikachu.rocks/
+I run a public version of the site at: https://couture.pikachu.rocks/ 
 
 Currently, you need to have an account on the site to be able to use the tracker.
 Also, there is no e-mail server connected, so e-mails are not verified,
 and password resets and e-mail changes have to be done by contacting the admin.
 
-## TODO: Installation
+## Installation
 Here is how to spin up your own Pokémon Couture Instance.
-1. Make sure you have [Elixir](https://elixir-lang.org/install.html), [Phoenix](https://hexdocs.pm/phoenix/installation.html), and a database like [PostgreSQL](https://wiki.postgresql.org/wiki/Detailed_installation_guides) installed. You will also need `npm`. Also make sure that you have a C compiler and make.
+1. Make sure you have [Elixir](https://elixir-lang.org/install.html), [Phoenix](https://hexdocs.pm/phoenix/installation.html), and a database like [PostgreSQL](https://wiki.postgresql.org/wiki/Detailed_installation_guides) installed. You will also need `npm`. Also make sure that you have a C compiler and `make`.
 2. Clone this git repository.
 3. In the repository folder, run `mix deps.get`
-At this point the setup is good enough for local testing. You can run `iex -S mix phx.server` and go to `localhost:4000` to see the page in action.
+At this point the setup is good enough for local testing. You can run `mix ecto setup`, then `iex -S mix phx.server` and go to `localhost:4000` to see the page in action.
 For instructions on running the app in prod, read below.
 ### Running in prod
-To run the application in prod, you need to do some additional setup. Essentially the contents of the [Phoenix deployment guide](https://hexdocs.pm/phoenix/1.5.13/deployment.html#content).
-1. `export` the SECRET_KEY_BASE and DATABASE_URL bash variables. You can get a secret with `mix phx.gen.secret`.
-2. Run `npm install` in the `assets` subfolder, then run `npm run deploy --prefix ./assets` in the project root folder.
-3. Run `mix phx.digest` in the project root folder.
-4. Run the server with PORT, HOST and MIX_ENV variables set, i.e. `PORT=4001 MIX_ENV=prod HOST=couture.pikachu.rocks mix phx.server` (or `PORT=4001 MIX_ENV=prod HOST=couture.pikachu.rocks elixir --erl "-detached" -S mix phx.server`).
-Optionally, also set a SENTRY_DSN variable with the link to your sentry dsn.
+To run the application in prod, you need to do some additional setup.
+You need to set a few environment variables, and run a few commands to set-up the app in production mode.
+#### Environment variables
+- `MIX_ENV=prod` to tell mix that you're running in prod.
+- `SECRET_KEY_BASE` for your secret. You can generate one with `mix phx.gen.secret`.
+- `DATABASE_URL` in the format of `ecto://USER:PASS@HOST/database` to connect to your database.
+- `PORT` for your app port. (usually 4000 or 4001)
+
+**Optional:**
+- `SENTRY_DSN` for your Sentry DSN if you're planning to track errors with Sentry.
+#### Preparing prod
+1. Run `npm install` in the `assets` subfolder, then run `npm run deploy --prefix ./assets` in the project root folder.
+2. Run `mix phx.digest` in the project root folder.
+3. Run `mix ecto.setup` to set up the database (and seed it).
+
+Now you can run the server. `mix phx.server` (or `elixir --erl "-detached" -S mix phx.server` for detached mode).
 ## License and attributions
 `assets/static/images/pikachu.png` is a [pikachu icon by WEBTECHOPS LLP from the Noun Project](https://thenounproject.com/term/pokemon/2122740/), licensed as Creative Commons CCBY.
 
