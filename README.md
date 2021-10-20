@@ -23,8 +23,9 @@ For instructions on running the app in prod, read below.
 To run the application in prod, you need to do some additional setup. Essentially the contents of the [Phoenix deployment guide](https://hexdocs.pm/phoenix/1.5.13/deployment.html#content).
 1. `export` the SECRET_KEY_BASE and DATABASE_URL bash variables. You can get a secret with `mix phx.gen.secret`.
 2. Run `npm install` in the `assets` subfolder, then run `npm run deploy --prefix ./assets` in the project root folder.
-3. Run `mix phx.digest` in the root folder.
+3. Run `mix phx.digest` in the project root folder.
 4. Run the server with PORT, HOST and MIX_ENV variables set, i.e. `PORT=4001 MIX_ENV=prod HOST=couture.pikachu.rocks mix phx.server` (or `PORT=4001 MIX_ENV=prod HOST=couture.pikachu.rocks elixir --erl "-detached" -S mix phx.server`).
+Optionally, also set a SENTRY_DSN variable with the link to your sentry dsn.
 ## License and attributions
 `assets/static/images/pikachu.png` is a [pikachu icon by WEBTECHOPS LLP from the Noun Project](https://thenounproject.com/term/pokemon/2122740/), licensed as Creative Commons CCBY.
 
