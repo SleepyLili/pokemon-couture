@@ -44,8 +44,10 @@ defmodule PokemonCouture.MixProject do
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
-      {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"},
+      {:sentry, "~> 8.0"},
+      {:jason, "~> 1.1"},
+      {:hackney, "~> 1.8"},
+      {:plug_cowboy, "~> 2.3"},
 
       {:phx_gen_auth, "~> 0.7", only: [:dev], runtime: false},
       {:csv, "~> 2.4.1"},

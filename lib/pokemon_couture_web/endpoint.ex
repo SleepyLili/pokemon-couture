@@ -1,4 +1,5 @@
 defmodule PokemonCoutureWeb.Endpoint do
+  use Sentry.PlugCapture # Sentry
   use Phoenix.Endpoint, otp_app: :pokemon_couture
 
   # The session will be stored in the cookie and signed,
@@ -46,6 +47,7 @@ defmodule PokemonCoutureWeb.Endpoint do
     parsers: [:urlencoded, :multipart, :json],
     pass: ["*/*"],
     json_decoder: Phoenix.json_library()
+  plug Sentry.PlugContext # sentry
 
   plug Plug.MethodOverride
   plug Plug.Head
