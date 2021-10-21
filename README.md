@@ -40,7 +40,7 @@ You may also want to set up something like Caddy or nginx as a reverse proxy.
 
 ## License and attributions
 `assets/static/images/pikachu.png` is a [pikachu icon by WEBTECHOPS LLP from the Noun Project](https://thenounproject.com/term/pokemon/2122740/), licensed as Creative Commons CCBY.
-
+The source code is licensed under [AGPL](LICENSE.md).
 ## Possible future improvements
 While the app is currently in a state that works, there are some improvements I would like to make for it later down the line.
 
