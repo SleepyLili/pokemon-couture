@@ -17,8 +17,9 @@ You will also need `npm`. Also make sure that you have a C compiler and `make`.
 2. Clone this git repository.
 3. In the repository folder, run `mix deps.get`
 At this point the setup is good enough for local testing.
-You can run `mix ecto setup`, then `iex -S mix phx.server` to get the server running.
-Go to `localhost:4000` to see the page in action.
+### Running locally/dev environment
+If you run `npm install` in the `assets` subfolder, then you can run `mix ecto setup`, then `iex -S mix phx.server` to get the server running.
+Go to `localhost:4000` to see the page in action. (If you do not run `npm install` in `assets`, the app will still work, but it will not have assets.)
 ### Running in prod
 To run the application in prod, you need to set a few environment variables, and run a few more commands.
 #### Environment variables
